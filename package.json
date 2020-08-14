@@ -1,0 +1,57 @@
+{
+  "name": "arknights-api",
+  "version": "1.0.0",
+  "description": "An API for doctors.",
+  "main": "index.js",
+  "author": "Tyndorael",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec 'babel-node --inspect=0.0.0.0 src/bin/server.js'",
+    "prettier": "prettier --check src/**/*.js",
+    "eslint": "eslint src/**/*.js",
+    "load-test": "k6 run scripts/k6.js",
+    "update-game-data": "node ./scripts/update-game-data.js",
+    "build": "rimraf dist && babel src --out-dir dist --copy-files",
+    "serve": "node dist/bin/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "lodash": "^4.17.15",
+    "lodash.combinations": "^18.9.19",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "axios": "^0.19.2",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2"
+  },
+  "nodemonConfig": {
+    "exec": "npm run dev",
+    "watch": [
+      "src/*",
+      "public/*"
+    ],
+    "ignore": [
+      "**/__tests__/**",
+      "*.test.js",
+      "*.spec.js"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
