@@ -1,4 +1,5 @@
 import express from 'express';
+import * as Sentry from '@sentry/node';
 import logger from 'morgan';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -12,6 +13,9 @@ dotenv.config();
 
 const app = express();
 
+Sentry.init({ dsn: process.env.SENTRY_DSN });
+
+app.use(Sentry.Handlers.requestHandler());
 app.use(logger('dev'));
 app.use(cors());
 app.use(express.json());
@@ -40,6 +44,8 @@ app.use(setCache);
 app.use('/v1/operators', routes.operators);
 app.use('/v1/building', routes.building);
 app.use('/v1/tags', routes.tags);
+
+app.use(Sentry.Handlers.errorHandler());
 
 // create global variable for game data
 createGlobalVariableForGameData();
