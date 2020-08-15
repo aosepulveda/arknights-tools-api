@@ -23,3 +23,9 @@ make debug
 ```
 
 And use "Docker: Attach to Node" from vscode.
+
+## Update Game Data
+
+```bash
+yarn update-game-data
+```
