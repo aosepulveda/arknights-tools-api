@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - develop
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
@@ -42,4 +41,4 @@ jobs:
             --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
             --platform "managed" \
             --allow-unauthenticated \
-            --set-env-vars CACHE_TIME=100,SENTRY_DSN=${{ secrets.SENTRY_DSN }}
+            --set-env-vars CACHE_TIME=${{ secrets.CACHE_TIME }},SENTRY_DSN=${{ secrets.SENTRY_DSN }}
