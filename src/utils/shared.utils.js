@@ -14,6 +14,8 @@ const dataCharacterTablePathJP =
   './../data/ja_JP/gamedata/excel/character_table.json';
 const dataCharacterTablePathKR =
   './../data/ko_KR/gamedata/excel/character_table.json';
+const dataCharacterTablePathTW =
+  './../data/zh_TW/gamedata/excel/character_table.json';
 const dataBuildingDataPathEN =
   './../data/en_US/gamedata/excel/building_data.json';
 const dataBuildingDataPathCN =
@@ -22,10 +24,13 @@ const dataBuildingDataPathJP =
   './../data/ja_JP/gamedata/excel/building_data.json';
 const dataBuildingDataPathKR =
   './../data/ko_KR/gamedata/excel/building_data.json';
+const dataBuildingDataPathTW =
+  './../data/zh_TW/gamedata/excel/building_data.json';
 const dataGachaTablePathEN = './../data/en_US/gamedata/excel/gacha_table.json';
 const dataGachaTablePathCN = './../data/zh_CN/gamedata/excel/gacha_table.json';
 const dataGachaTablePathJP = './../data/ja_JP/gamedata/excel/gacha_table.json';
 const dataGachaTablePathKR = './../data/ko_KR/gamedata/excel/gacha_table.json';
+const dataGachaTablePathTW = './../data/zh_TW/gamedata/excel/gacha_table.json';
 
 export const readCharacterTableGameDataJsonFile = async (locale) => {
   if (!isEmpty(global.gameData[locale].characters)) {
@@ -51,6 +56,11 @@ export const readCharacterTableGameDataJsonFile = async (locale) => {
     case 'kr':
       operatorsFromGameData = await readFile(
         path.join(__dirname, dataCharacterTablePathKR),
+      );
+      break;
+    case 'tw':
+      operatorsFromGameData = await readFile(
+        path.join(__dirname, dataCharacterTablePathTW),
       );
       break;
     default:
@@ -90,6 +100,11 @@ export const readBuildingDataGameDataJsonFile = async (locale) => {
         path.join(__dirname, dataBuildingDataPathKR),
       );
       break;
+    case 'tw':
+      buildingDataFromGameData = await readFile(
+        path.join(__dirname, dataBuildingDataPathTW),
+      );
+      break;
     default:
       buildingDataFromGameData = await readFile(
         path.join(__dirname, dataBuildingDataPathEN),
@@ -124,6 +139,11 @@ export const readGachaTableGameDataJsonFile = async (locale) => {
     case 'kr':
       gachaTableFromGameData = await readFile(
         path.join(__dirname, dataGachaTablePathKR),
+      );
+      break;
+    case 'tw':
+      gachaTableFromGameData = await readFile(
+        path.join(__dirname, dataGachaTablePathTW),
       );
       break;
     default:
@@ -161,6 +181,11 @@ export const createGlobalVariableForGameData = () => {
       gacha: {},
     },
     kr: {
+      characters: {},
+      building: {},
+      gacha: {},
+    },
+    tw: {
       characters: {},
       building: {},
       gacha: {},

@@ -1,5 +1,5 @@
 ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-NAME:=arknights-api
+NAME:=arknights-tools-api
 
 build:
 	@echo "Building Docker $(NAME) image..."

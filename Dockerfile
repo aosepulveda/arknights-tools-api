@@ -1,6 +1,6 @@
-FROM alpine:3.9.6 AS base
+FROM alpine:3.12.0 AS base
 WORKDIR /usr/src/app
-RUN apk add --update nodejs=10.14.2-r0 npm=10.14.2-r0 yarn=1.12.3-r0 --no-cache
+RUN apk add --update nodejs=12.18.3-r0 npm=12.18.3-r0 yarn=1.22.4-r0 --no-cache
 
 FROM base AS builder
 COPY package.json yarn.lock .babelrc ./

@@ -40,4 +40,5 @@ jobs:
             --region "$RUN_REGION" \
             --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
             --platform "managed" \
-            --allow-unauthenticated
+            --allow-unauthenticated \
+            --set-env-vars CACHE_TIME=${{ secrets.CACHE_TIME }},SENTRY_DSN=${{ secrets.SENTRY_DSN }}

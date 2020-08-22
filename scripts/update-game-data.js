@@ -28,6 +28,7 @@ const updateGameData = async () => {
     CN: './../src/data/zh_CN/gamedata/excel/',
     JP: './../src/data/ja_JP/gamedata/excel/',
     KR: './../src/data/ko_KR/gamedata/excel/',
+    TW: './../src/data/zh_TW/gamedata/excel/',
   };
 
   const FILES = {
@@ -52,6 +53,11 @@ const updateGameData = async () => {
           'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/ko_KR/gamedata/excel/character_table.json',
         name: 'character_table.json',
       },
+      TW: {
+        url:
+          'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_TW/gamedata/excel/character_table.json',
+        name: 'character_table.json',
+      },
     },
     BUILDINGS: {
       EN: {
@@ -74,6 +80,11 @@ const updateGameData = async () => {
           'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/ko_KR/gamedata/excel/building_data.json',
         name: 'building_data.json',
       },
+      TW: {
+        url:
+          'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_TW/gamedata/excel/building_data.json',
+        name: 'building_data.json',
+      },
     },
     TAGS: {
       EN: {
@@ -94,6 +105,11 @@ const updateGameData = async () => {
       KR: {
         url:
           'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/ko_KR/gamedata/excel/gacha_table.json',
+        name: 'gacha_table.json',
+      },
+      TW: {
+        url:
+          'https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_TW/gamedata/excel/gacha_table.json',
         name: 'gacha_table.json',
       },
     },
@@ -158,6 +174,21 @@ const updateGameData = async () => {
       url: FILES.TAGS.KR.url,
       destinationPath: DESTINATION_PATHS.KR,
       name: FILES.TAGS.KR.name,
+    },
+    {
+      url: FILES.CHARACTERS.TW.url,
+      destinationPath: DESTINATION_PATHS.TW,
+      name: FILES.CHARACTERS.TW.name,
+    },
+    {
+      url: FILES.BUILDINGS.TW.url,
+      destinationPath: DESTINATION_PATHS.TW,
+      name: FILES.BUILDINGS.TW.name,
+    },
+    {
+      url: FILES.TAGS.TW.url,
+      destinationPath: DESTINATION_PATHS.TW,
+      name: FILES.TAGS.TW.name,
     },
   ];
 
