@@ -444,6 +444,126 @@
       "guarantee5Avail": 1,
       "guarantee5Count": 10,
       "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_6_0_2",
+      "gachaIndex": 10,
+      "openTime": 1609790400,
+      "endTime": 1610999999,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於1月19日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_6_0_3",
+      "gachaIndex": 9,
+      "openTime": 1610006400,
+      "endTime": 1611172799,
+      "gachaPoolName": "凝電之鑽",
+      "gachaPoolSummary": "結束於1月21日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_6_0_4",
+      "gachaIndex": 8,
+      "openTime": 1611000000,
+      "endTime": 1612209599,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於2月2日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_7_0_1",
+      "gachaIndex": 7,
+      "openTime": 1611214200,
+      "endTime": 1612382399,
+      "gachaPoolName": "百種兵器",
+      "gachaPoolSummary": "結束於2月4日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_7_0_2",
+      "gachaIndex": 6,
+      "openTime": 1612209600,
+      "endTime": 1613419199,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於2月16日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_7_0_3",
+      "gachaIndex": 5,
+      "openTime": 1612423800,
+      "endTime": 1613591999,
+      "gachaPoolName": "地生五金",
+      "gachaPoolSummary": "結束於2月18日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "LimitedAdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_7_0_4",
+      "gachaIndex": 4,
+      "openTime": 1613419200,
+      "endTime": 1614628799,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於3月2日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_8_0_1",
+      "gachaIndex": 3,
+      "openTime": 1614628800,
+      "endTime": 1615838399,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於3月16日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_8_0_2",
+      "gachaIndex": 2,
+      "openTime": 1614843000,
+      "endTime": 1616011199,
+      "gachaPoolName": "草垛上的風笛聲",
+      "gachaPoolSummary": "結束於3月18日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
+    },
+    {
+      "gachaPoolId": "NORM_TC_8_0_3",
+      "gachaIndex": 1,
+      "openTime": 1615838400,
+      "endTime": 1617047999,
+      "gachaPoolName": "適合多種場合的強力幹員",
+      "gachaPoolSummary": "結束於3月30日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "gachaPoolType": "AdvancedGacha"
     }
   ],
   "newbeeGachaPoolClient": [
@@ -1192,6 +1312,76 @@
       "startTime": 1608795000,
       "endTime": 1609963199,
       "spriteId": "picNorm_tc_6_0_1"
+    },
+    {
+      "poolId": "NORM_TC_6_0_2",
+      "index": 10,
+      "startTime": 1609790400,
+      "endTime": 1610999999,
+      "spriteId": "picNorm_tc_6_0_2"
+    },
+    {
+      "poolId": "NORM_TC_6_0_3",
+      "index": 9,
+      "startTime": 1610006400,
+      "endTime": 1611172799,
+      "spriteId": "picNorm_tc_6_0_3"
+    },
+    {
+      "poolId": "NORM_TC_6_0_4",
+      "index": 8,
+      "startTime": 1611000000,
+      "endTime": 1612209599,
+      "spriteId": "picNorm_tc_6_0_4"
+    },
+    {
+      "poolId": "NORM_TC_7_0_1",
+      "index": 7,
+      "startTime": 1611214200,
+      "endTime": 1612382399,
+      "spriteId": "picNorm_tc_7_0_1"
+    },
+    {
+      "poolId": "NORM_TC_7_0_2",
+      "index": 6,
+      "startTime": 1612209600,
+      "endTime": 1613419199,
+      "spriteId": "picNorm_tc_7_0_2"
+    },
+    {
+      "poolId": "NORM_TC_7_0_3",
+      "index": 5,
+      "startTime": 1612423800,
+      "endTime": 1613591999,
+      "spriteId": "picNorm_tc_7_0_3"
+    },
+    {
+      "poolId": "NORM_TC_7_0_4",
+      "index": 4,
+      "startTime": 1613419200,
+      "endTime": 1614628799,
+      "spriteId": "picNorm_tc_7_0_4"
+    },
+    {
+      "poolId": "NORM_TC_8_0_1",
+      "index": 3,
+      "startTime": 1614628800,
+      "endTime": 1615838399,
+      "spriteId": "picNorm_tc_8_0_1"
+    },
+    {
+      "poolId": "NORM_TC_8_0_2",
+      "index": 2,
+      "startTime": 1614843000,
+      "endTime": 1616011199,
+      "spriteId": "picNorm_tc_8_0_2"
+    },
+    {
+      "poolId": "NORM_TC_8_0_3",
+      "index": 1,
+      "startTime": 1615838400,
+      "endTime": 1617047999,
+      "spriteId": "picNorm_tc_8_0_3"
     }
   ]
 }
