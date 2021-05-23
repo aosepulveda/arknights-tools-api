@@ -2945,7 +2945,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -3152,7 +3152,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -3225,7 +3225,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -3712,7 +3712,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -3925,7 +3925,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4020,7 +4020,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[001]",
+              "buffId": "power_rec_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -4093,7 +4093,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[002]",
+              "buffId": "power_rec_spd[020]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4232,14 +4232,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[030]",
+              "buffId": "power_rec_spd[014]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[031]",
+              "buffId": "power_rec_spd[021]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -4259,7 +4259,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[010]",
+              "buffId": "manu_prod_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4313,7 +4313,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[010]",
+              "buffId": "manu_prod_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -5079,14 +5079,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[020]",
+              "buffId": "power_rec_spd[013]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -5379,14 +5379,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[040]",
+              "buffId": "power_rec_spd[003]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[041]",
+              "buffId": "power_rec_spd[015]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -5890,7 +5890,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6113,7 +6113,7 @@
         {
           "buffData": [
             {
-              "buffId": "workshop_formula_cost3[111]",
+              "buffId": "workshop_formula_cost3[120]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6176,7 +6176,7 @@
               }
             },
             {
-              "buffId": "trade_ord_wt&cost[001]",
+              "buffId": "trade_ord_wt&cost[010]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6189,6 +6189,34 @@
         }
       ]
     },
+    "char_385_finlpp": {
+      "charId": "char_385_finlpp",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[011]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd&trade[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
     "char_2013_cerber": {
       "charId": "char_2013_cerber",
       "maxManpower": 8640000,
@@ -6196,7 +6224,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_limit&cost[001]",
+              "buffId": "manu_prod_limit&cost[002]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6241,6 +6269,34 @@
         },
         {
           "buffData": []
+        }
+      ]
+    },
+    "char_159_peacok": {
+      "charId": "char_159_peacok",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single[030]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[001]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -6601,7 +6657,7 @@
         {
           "buffData": [
             {
-              "buffId": "workshop_formula_cost3[200]",
+              "buffId": "workshop_formula_cost3[220]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6774,7 +6830,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_limit[000]",
+              "buffId": "manu_formula_limit[0000]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -7040,6 +7096,369 @@
         }
       ]
     },
+    "char_350_surtr": {
+      "charId": "char_350_surtr",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[120]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_365_aprl": {
+      "charId": "char_365_aprl",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&limit[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "trade_ord_spd&limit[001]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_271_spikes": {
+      "charId": "char_271_spikes",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_dorm[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_dorm[001]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_oneself2[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_388_mint": {
+      "charId": "char_388_mint",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession2[050]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession2[350]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[201]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_423_blemsh": {
+      "charId": "char_423_blemsh",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_free[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost2[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_346_aosta": {
+      "charId": "char_346_aosta",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[110]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[030]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_381_bubble": {
+      "charId": "char_381_bubble",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_limit&cost[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_variable3[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_265_sophia": {
+      "charId": "char_265_sophia",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd[0000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_391_rosmon": {
+      "charId": "char_391_rosmon",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "manu_prod_spd_bd[010]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_311_mudrok": {
+      "charId": "char_311_mudrok",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost4[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[050]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_436_whispr": {
+      "charId": "char_436_whispr",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_347_jaksel": {
+      "charId": "char_347_jaksel",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single&oneself[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd[0010]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
     "char_504_rguard": {
       "charId": "char_504_rguard",
       "maxManpower": 8640000,
@@ -7143,7 +7562,7 @@
       "buffName": "협력 협의",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_t_spd",
-      "sortId": 1303,
+      "sortId": 1403,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7155,7 +7574,7 @@
       "buffName": "아가씨",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_t_spd",
-      "sortId": 1302,
+      "sortId": 1402,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7167,19 +7586,19 @@
       "buffName": "괜찮을 거 같은데",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_p_bot",
-      "sortId": 1301,
+      "sortId": 1601,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "제어 센터에 배치 시, <@cc.kw>Lancet-2</>가 <@cc.kw>발전소</>에 배치된 경우, <@cc.kw>2</>개의 <@cc.kw>발전소</>가 추가된 것으로 간주함 (시설 수량에만 영향을 줌)"
+      "description": "제어 센터에 배치 시, <@cc.kw>Lancet-2</>가 <@cc.kw>발전소</>에 배치된 경우, <@cc.vup>+2</>개의 <@cc.kw>발전소</> 가 추가된 것으로 간주함 (시설 수량에만 영향을 줌)"
     },
     "control_clue_cost[000]": {
       "buffId": "control_clue_cost[000]",
       "buffName": "노이로제",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt",
-      "sortId": 1503,
+      "sortId": 1003,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7191,7 +7610,7 @@
       "buffName": "규범대로",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt1",
-      "sortId": 1501,
+      "sortId": 1001,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7203,7 +7622,7 @@
       "buffName": "정확한 판단",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt2",
-      "sortId": 1502,
+      "sortId": 1002,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7215,7 +7634,7 @@
       "buffName": "오른팔",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1003,
+      "sortId": 1103,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7227,7 +7646,7 @@
       "buffName": "S.W.E.E.P.",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1002,
+      "sortId": 1102,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7239,7 +7658,7 @@
       "buffName": "간식 네트워크",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1001,
+      "sortId": 1101,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7251,7 +7670,7 @@
       "buffName": "처분 협의",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1004,
+      "sortId": 1104,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7263,7 +7682,7 @@
       "buffName": "대리인",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1005,
+      "sortId": 1105,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7275,7 +7694,7 @@
       "buffName": "필요책임",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1006,
+      "sortId": 1106,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7287,7 +7706,7 @@
       "buffName": "덕재겸비",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_lungmen",
-      "sortId": 1103,
+      "sortId": 1203,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7299,7 +7718,7 @@
       "buffName": "학생회 회장",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_ussg",
-      "sortId": 1102,
+      "sortId": 1202,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7311,7 +7730,7 @@
       "buffName": "굳세지만 유연하게",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_lda",
-      "sortId": 1201,
+      "sortId": 1301,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7323,7 +7742,7 @@
       "buffName": "넘치는 열정",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd&cost",
-      "sortId": 2002,
+      "sortId": 2003,
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7342,8 +7761,8 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  드론 회복 속도<@cc.vup>+10%</>"
     },
-    "power_rec_spd[001]": {
-      "buffId": "power_rec_spd[001]",
+    "power_rec_spd[010]": {
+      "buffId": "power_rec_spd[010]",
       "buffName": "설비 점검",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7354,8 +7773,20 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+15%</>"
     },
-    "power_rec_spd[002]": {
-      "buffId": "power_rec_spd[002]",
+    "power_rec_spd[011]": {
+      "buffId": "power_rec_spd[011]",
+      "buffName": "청정에너지",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd2",
+      "sortId": 2101,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+15%</>"
+    },
+    "power_rec_spd[020]": {
+      "buffId": "power_rec_spd[020]",
       "buffName": "정전기장",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd3",
@@ -7366,8 +7797,8 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+20%</>"
     },
-    "power_rec_spd[010]": {
-      "buffId": "power_rec_spd[010]",
+    "power_rec_spd[001]": {
+      "buffId": "power_rec_spd[001]",
       "buffName": "열에너지 충전 α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd1",
@@ -7378,8 +7809,8 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+10%</>"
     },
-    "power_rec_spd[020]": {
-      "buffId": "power_rec_spd[020]",
+    "power_rec_spd[013]": {
+      "buffId": "power_rec_spd[013]",
       "buffName": "고열충전",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7390,8 +7821,8 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+15%</>"
     },
-    "power_rec_spd[030]": {
-      "buffId": "power_rec_spd[030]",
+    "power_rec_spd[014]": {
+      "buffId": "power_rec_spd[014]",
       "buffName": "펄스 아크 α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7402,8 +7833,8 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+15%</>"
     },
-    "power_rec_spd[031]": {
-      "buffId": "power_rec_spd[031]",
+    "power_rec_spd[021]": {
+      "buffId": "power_rec_spd[021]",
       "buffName": "펄스 아크 β",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd3",
@@ -7414,20 +7845,20 @@
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+20%</>"
     },
-    "power_rec_spd[040]": {
-      "buffId": "power_rec_spd[040]",
+    "power_rec_spd[003]": {
+      "buffId": "power_rec_spd[003]",
       "buffName": "전자기 충전 α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd1",
-      "sortId": 2003,
+      "sortId": 2004,
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
       "description": "발전소에 배치 시,  시간당 드론 회복 속도<@cc.vup>+10%</>"
     },
-    "power_rec_spd[041]": {
-      "buffId": "power_rec_spd[041]",
+    "power_rec_spd[015]": {
+      "buffId": "power_rec_spd[015]",
       "buffName": "전자기 충전 β",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7448,31 +7879,31 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>, <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+5%</>"
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>(시설 수량에 따라 제공하는 생산력 미포함), <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+5%</>"
     },
     "manu_prod_spd&power[010]": {
       "buffId": "manu_prod_spd&power[010]",
       "buffName": "자동화 β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&power2",
-      "sortId": 3521,
+      "sortId": 3511,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>, <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+10%</>"
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>(시설 수량에 따라 제공하는 생산력 미포함), <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+10%</>"
     },
     "manu_prod_spd&power[020]": {
       "buffId": "manu_prod_spd&power[020]",
       "buffName": "해마 리프",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&power3",
-      "sortId": 3533,
+      "sortId": 3521,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>, <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+15%</>"
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 제공하는 생산력이 <@cc.vdown>전부 0이 되고</>(시설 수량에 따라 제공하는 생산력 미포함), <@cc.kw>발전소</> 하나당 해당 제조소의 생산력 <@cc.vup>+15%</>"
     },
     "manu_prod_spd[000]": {
       "buffId": "manu_prod_spd[000]",
@@ -7486,8 +7917,8 @@
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시, 생산력<@cc.vup>+15%</>"
     },
-    "manu_prod_spd[001]": {
-      "buffId": "manu_prod_spd[001]",
+    "manu_prod_spd[010]": {
+      "buffId": "manu_prod_spd[010]",
       "buffName": "표준화 β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd2",
@@ -7498,12 +7929,12 @@
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시, 생산력<@cc.vup>+25%</>"
     },
-    "manu_prod_spd[010]": {
-      "buffId": "manu_prod_spd[010]",
+    "manu_prod_spd[001]": {
+      "buffId": "manu_prod_spd[001]",
       "buffName": "라인테크 α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd1",
-      "sortId": 3532,
+      "sortId": 3533,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7551,7 +7982,7 @@
       "buffName": "\"못 기다려\"",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd_add1",
-      "sortId": 3203,
+      "sortId": 3204,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7630,17 +8061,29 @@
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시,  창고 용량 상한<@cc.vup>+8</>, 시간당 컨디션 소모<@cc.vup>-0.25</>"
     },
-    "manu_prod_limit&cost[001]": {
-      "buffId": "manu_prod_limit&cost[001]",
+    "manu_prod_limit&cost[002]": {
+      "buffId": "manu_prod_limit&cost[002]",
       "buffName": "\"다 갖고 와\"",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_limit&cost1",
-      "sortId": 3203,
+      "sortId": 3204,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시,  창고 용량 상한<@cc.vup>+8</>, 시간당 컨디션 소모<@cc.vup>-0.25</>"
+    },
+    "manu_prod_limit&cost[010]": {
+      "buffId": "manu_prod_limit&cost[010]",
+      "buffName": "수집벽",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_limit&cost2",
+      "sortId": 3211,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시,  창고 용량 상한<@cc.vup>+10</>, 시간당 컨디션 소모<@cc.vup>-0.25</>"
     },
     "manu_prod_limit&cost[020]": {
       "buffId": "manu_prod_limit&cost[020]",
@@ -7666,12 +8109,12 @@
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치하여 <@cc.kw>작전기록</> 생산 시 시간당 컨디션 소모 <@cc.vup>-0.25</>"
     },
-    "manu_formula_limit[000]": {
-      "buffId": "manu_formula_limit[000]",
+    "manu_formula_limit[0000]": {
+      "buffId": "manu_formula_limit[0000]",
       "buffName": "편집 α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp&limit",
-      "sortId": 3403,
+      "skillIcon": "bskill_man_exp&limit1",
+      "sortId": 3301,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7682,8 +8125,8 @@
       "buffId": "manu_formula_limit[010]",
       "buffName": "편집 β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp&limit",
-      "sortId": 3535,
+      "skillIcon": "bskill_man_exp&limit2",
+      "sortId": 3302,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7695,7 +8138,7 @@
       "buffName": "장인정신 α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost1",
-      "sortId": 3301,
+      "sortId": 3303,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7707,7 +8150,7 @@
       "buffName": "장인정신 β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost2",
-      "sortId": 3303,
+      "sortId": 3304,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7750,6 +8193,18 @@
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 늘린 창고 용량마다 생산력<@cc.vup>2%</> 제공"
     },
+    "manu_prod_spd_variable3[000]": {
+      "buffId": "manu_prod_spd_variable3[000]",
+      "buffName": "큰 게 좋아!",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_variable31",
+      "sortId": 3211,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 자신이 상승시킨 창고 용량 상한에 따라 일정 생산력을 제공한다. <@cc.vup>18</> 칸 이하일 경우, 창고 용량 1칸당 <@cc.vup>1%</>의 생산력을 제공하고, <@cc.vup>18</>칸 보다 클 경우 창고 용량 1칸당 <@cc.vup>3%</> 생산력을 제공한다. (<@cc.rem>재활용</> 스킬과 중첩되지 않음. 우선적으로 발동됨)"
+    },
     "manu_prod_spd_variable2[000]": {
       "buffId": "manu_prod_spd_variable2[000]",
       "buffName": "협동의식",
@@ -7760,7 +8215,43 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "제조소에 배치 시,  해당 제조소 내의 오퍼레이터가 매 <@cc.vup>5%</> 생산력마다 <@cc.vup>5%</>생산력을 추가 제공. 최대 <@cc.vup>40%</>생산력 제공"
+      "description": "제조소에 배치 시, 해당 제조소 내의 오퍼레이터가 매 <@cc.vup>5%</> 생산력(시설 수량에 따라 제공하는 생산력 미포함)마다 <@cc.vup>5%</> 생산력을 추가 제공. 최대 <@cc.vup>40%</>생산력 제공"
+    },
+    "manu_prod_spd_bd_n1[000]": {
+      "buffId": "manu_prod_spd_bd_n1[000]",
+      "buffName": "초감각",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd_n1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, 숙소 내 오퍼레이터 <@cc.kw>1</>명당 <@cc.rem>감지 정보</><@cc.vup>+1</>. 이와 동시에, <@cc.vup>1</>점의 <@cc.rem>감지 정보</>마다 <@cc.rem>생각의 사슬</> <@cc.vup>1</>점으로 전환"
+    },
+    "manu_prod_spd_bd[000]": {
+      "buffId": "manu_prod_spd_bd[000]",
+      "buffName": "염력",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, <@cc.vup>2</> <@cc.rem>생각의 사슬</> 1점마다 생산력 <@cc.vup>+1%</>"
+    },
+    "manu_prod_spd_bd[010]": {
+      "buffId": "manu_prod_spd_bd[010]",
+      "buffName": "의식의 실체",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd2",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, <@cc.vup>1</> <@cc.rem>생각의 사슬</> 1점마다 생산력 <@cc.vup>+1%</>"
     },
     "manu_formula_spd[000]": {
       "buffId": "manu_formula_spd[000]",
@@ -7785,6 +8276,18 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시, <@cc.kw>작전 기록</>류에 대한 생산력<@cc.vup>+35%</>"
+    },
+    "manu_prod_spd&trade[000]": {
+      "buffId": "manu_prod_spd&trade[000]",
+      "buffName": "재생에너지",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd&trade",
+      "sortId": 3701,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, 각각의 <@cc.kw>무역소</>가 해당 제조소의 <@cc.kw>귀금속</>류 생산력<@cc.vup>+20%</>"
     },
     "manu_formula_spd[100]": {
       "buffId": "manu_formula_spd[100]",
@@ -7815,7 +8318,7 @@
       "buffName": "오리지늄공예 α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium1",
-      "sortId": 3002,
+      "sortId": 3011,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7827,12 +8330,24 @@
       "buffName": "오리지늄공예 β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium2",
-      "sortId": 3003,
+      "sortId": 3021,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "제조소에 배치 시, <@cc.kw>오리지늄</>류에 대한 생산력<@cc.vup>+35%</>"
+    },
+    "manu_formula_spd[201]": {
+      "buffId": "manu_formula_spd[201]",
+      "buffName": "지질학 α",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium1",
+      "sortId": 3012,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "제조소에 배치 시, <@cc.kw>오리지늄</>류에 대한 생산력<@cc.vup>+30%</>"
     },
     "manu_formula_spd[211]": {
       "buffId": "manu_formula_spd[211]",
@@ -7947,7 +8462,7 @@
       "buffName": "속삭임",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_vodfox",
-      "sortId": 4901,
+      "sortId": 4903,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7971,7 +8486,7 @@
       "buffName": "근면성실 β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd_variable22",
-      "sortId": 4701,
+      "sortId": 4901,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7990,6 +8505,18 @@
       "roomType": "TRADING",
       "description": "무역소에 배치 시, 오더 수주 효율<@cc.vup>+10%</>, 오더 상한<@cc.vup>+2</>"
     },
+    "trade_ord_spd&limit[001]": {
+      "buffId": "trade_ord_spd&limit[001]",
+      "buffName": "오더 관리 β",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_spd&limit2",
+      "sortId": 4102,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "무역소에 배치 시, 오더 수주 효율<@cc.vup>+10%</>, 오더 상한<@cc.vup>+4</>"
+    },
     "trade_ord_spd&limit[010]": {
       "buffId": "trade_ord_spd&limit[010]",
       "buffName": "공급관리",
@@ -8007,7 +8534,7 @@
       "buffName": "카란 무역 α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd&limit3",
-      "sortId": 4102,
+      "sortId": 4201,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8115,7 +8642,7 @@
       "buffName": "시장경제",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_limit_diff",
-      "sortId": 4004,
+      "sortId": 4023,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8127,7 +8654,7 @@
       "buffName": "상인의 길",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_limit_count",
-      "sortId": 4004,
+      "sortId": 4023,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8139,19 +8666,19 @@
       "buffName": "재봉 α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_wt&cost1",
-      "sortId": 4002,
+      "sortId": 4011,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
       "description": "무역소에 배치 시, 해당 무역소의 <@cc.kw>고품질 귀금속 오더</>의 출현 확률이 <@cc.kw>소폭 상승</> (확률은 작업 시간의 영향을 받음), 시간당 컨디션 소모 <@cc.vup>-0.25</>"
     },
-    "trade_ord_wt&cost[001]": {
-      "buffId": "trade_ord_wt&cost[001]",
+    "trade_ord_wt&cost[010]": {
+      "buffId": "trade_ord_wt&cost[010]",
       "buffName": "재봉 β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_wt&cost2",
-      "sortId": 4003,
+      "sortId": 4012,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8187,7 +8714,7 @@
       "buffName": "속셈 α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_Lappland1",
-      "sortId": 4903,
+      "sortId": 4905,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8199,7 +8726,7 @@
       "buffName": "속셈 β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_Lappland2",
-      "sortId": 4903,
+      "sortId": 4905,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8300,7 +8827,31 @@
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "가공소에 배치 후 <@cc.kw>임의류 재료</> 가공 시, 산출하는 부산물이 <@cc.vup>2</>회 가공 시 마다 없어지고, <@cc.kw>자신의 컨디션을 1회 회복</>한다. 회복량은 <@cc.kw>재료 가공에 소모되는 컨디션량에 대응한다</> (가공 완료 후 합산)"
+      "description": "가공소에 배치 후 <@cc.kw>임의류 재료</> 가공 시, 매 <@cc.vup>2</>회 부산물이 산출되지 않을 때마다 <@cc.kw>자신의 컨디션을 1회 회복</>한다. 회복량은 <@cc.kw>재료 가공에 소모되는 컨디션량에 대응한다.</> (가공 완료 후 합산)"
+    },
+    "workshop_formula_cost4[000]": {
+      "buffId": "workshop_formula_cost4[000]",
+      "buffName": "집착",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_constant",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 컨디션을 <@cc.vup>2</> 소모"
+    },
+    "workshop_formula_cost2[000]": {
+      "buffId": "workshop_formula_cost2[000]",
+      "buffName": "의욕 넘치는 수리공",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_cost_blemishine",
+      "sortId": 7501,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률이 <@cc.vup>40%</> 상승하고, 컨디션 소모가 <@cc.kw>8</> 이상인 모든 항목의 컨디션 소모량 <@cc.vup>-4</>"
     },
     "workshop_formula_cost[010]": {
       "buffId": "workshop_formula_cost[010]",
@@ -8331,15 +8882,15 @@
       "buffName": "영감",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve_cost1",
-      "sortId": 7541,
+      "sortId": 7052,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "가공소에 배치 후 컨디션 <@cc.kw>4</> 소모하는 <@cc.kw>정예화 재료</> 가공 시 컨디션 소모<@cc.vup>-1</>"
     },
-    "workshop_formula_cost3[111]": {
-      "buffId": "workshop_formula_cost3[111]",
+    "workshop_formula_cost3[120]": {
+      "buffId": "workshop_formula_cost3[120]",
       "buffName": "미니멀 실용주의",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve_cost2",
@@ -8350,24 +8901,24 @@
       "roomType": "WORKSHOP",
       "description": "가공소에 배치 후 컨디션 <@cc.kw>4</> 소모하는 <@cc.kw>정예화 재료</> 가공 시 컨디션 소모<@cc.vup>-2</>"
     },
-    "workshop_formula_cost3[200]": {
-      "buffId": "workshop_formula_cost3[200]",
+    "workshop_formula_cost3[220]": {
+      "buffId": "workshop_formula_cost3[220]",
       "buffName": "선광학",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_build_cost1",
-      "sortId": 7041,
+      "skillIcon": "bskill_ws_build_cost2",
+      "sortId": 7411,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "가공소에 배치 후 컨디션 <@cc.kw>2</> 소모하는 <@cc.kw>기반시설 재료</> 가공 시 컨디션 소모<@cc.vup>-1</>"
+      "description": "가공소에 배치 후 컨디션 <@cc.kw>4</> 소모하는 <@cc.kw>기반시설 재료</> 가공 시 컨디션 소모<@cc.vup>-2</>"
     },
     "workshop_formula_cost3[300]": {
       "buffId": "workshop_formula_cost3[300]",
       "buffName": "무념무상",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_asc_cost1",
-      "sortId": 7021,
+      "sortId": 7201,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8530,6 +9081,42 @@
       "roomType": "WORKSHOP",
       "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 부산물 산출 확률 <@cc.vup>100%</> 상승"
     },
+    "workshop_formula_dorm[000]": {
+      "buffId": "workshop_formula_dorm[000]",
+      "buffName": "“쓸모없는 물건은 없고”",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_dorm1",
+      "sortId": 7551,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 숙소 내 컨디션이 <@cc.vup>4</>이하인 오퍼레이터 <@cc.kw>1</>명당 부산물 산출 확률 <@cc.vup>5%</> 상승"
+    },
+    "workshop_formula_dorm[001]": {
+      "buffId": "workshop_formula_dorm[001]",
+      "buffName": "“쓸모없는 인간은 없다”",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_dorm2",
+      "sortId": 7552,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 숙소 내 컨디션이 <@cc.vup>20</>이하인 오퍼레이터 <@cc.kw>1</>명당 부산물 산출 확률 <@cc.vup>5%</> 상승"
+    },
+    "workshop_formula_free[000]": {
+      "buffId": "workshop_formula_free[000]",
+      "buffName": "알뜰살뜰",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_free",
+      "sortId": 7501,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>정예화 재료</> 가공 시, 소모하는 용문폐 절감"
+    },
     "workshop_formula_probability[200]": {
       "buffId": "workshop_formula_probability[200]",
       "buffName": "공학",
@@ -8547,7 +9134,7 @@
       "buffName": "참철열강",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_build3",
-      "sortId": 7404,
+      "sortId": 7421,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8559,7 +9146,7 @@
       "buffName": "구조역학",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_build2",
-      "sortId": 7402,
+      "sortId": 7411,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8602,12 +9189,48 @@
       "roomType": "WORKSHOP",
       "description": "가공소에 배치 후 <@cc.kw>장치</>류 가공 시, 부산물 산출 확률 <@cc.vup>90%</> 상승"
     },
+    "workshop_formula_device[030]": {
+      "buffId": "workshop_formula_device[030]",
+      "buffName": "DIY 폴리에스테르",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_polyester",
+      "sortId": 7544,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>폴리에스테르</>류 가공 시, 부산물 산출 확률 <@cc.vup>90%</> 상승"
+    },
+    "workshop_formula_device[050]": {
+      "buffId": "workshop_formula_device[050]",
+      "buffName": "DIY(원암)",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_orirock",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "가공소에 배치 후 <@cc.kw>원암</>류 가공 시, 부산물 산출 확률 <@cc.vup>90%</> 상승"
+    },
     "train_spd[000]": {
       "buffId": "train_spd[000]",
       "buffName": "교관",
       "buffIcon": "training",
       "skillIcon": "bskill_train_all",
       "sortId": 9001,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "훈련실에 배치 시, 오퍼레이터의 스킬 훈련 속도<@cc.vup>+25%</>"
+    },
+    "train_spd[0000]": {
+      "buffId": "train_spd[0000]",
+      "buffName": "교관",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_all",
+      "sortId": 9701,
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -8746,6 +9369,18 @@
       "roomType": "TRAINING",
       "description": "훈련실에 배치 시, <@cc.kw>캐스터</> 오퍼레이터의 스킬 훈련 속도<@cc.vup>+30%</>"
     },
+    "train_spd&profession2[050]": {
+      "buffId": "train_spd&profession2[050]",
+      "buffName": "캐스터 마스터리 α",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_caster1",
+      "sortId": 9401,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "훈련실에 배치 시, <@cc.kw>캐스터</> 오퍼레이터의 스킬 훈련 속도<@cc.vup>+30%</>"
+    },
     "train_spd&profession[051]": {
       "buffId": "train_spd&profession[051]",
       "buffName": "캐스터 마스터리 β",
@@ -8830,6 +9465,18 @@
       "roomType": "TRAINING",
       "description": "훈련실에 배치 시, <@cc.kw>스페셜리스트</> 오퍼레이터의 스킬 훈련 속도<@cc.vup>+50%</>"
     },
+    "train_spd&profession[120]": {
+      "buffId": "train_spd&profession[120]",
+      "buffName": "기억하는 검술",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_guard3",
+      "sortId": 9721,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "훈련실에 배치 시, <@cc.kw>가드</> 오퍼레이터의 스킬 훈련 속도<@cc.vup>+60%</>"
+    },
     "train_spd&profession[130]": {
       "buffId": "train_spd&profession[130]",
       "buffName": "반야",
@@ -8902,6 +9549,18 @@
       "roomType": "TRAINING",
       "description": "훈련실에 배치 시 <@cc.kw>캐스터</> 오퍼레이터의 스킬 훈련 속도 <@cc.vup>+30%</>, 만약 훈련을 통해 스킬 마스터리가 <@cc.vup>1</>레벨까지 오른 경우, 훈련 속도가 <@cc.vup>+45%</> 추가"
     },
+    "train_spd&profession2[350]": {
+      "buffId": "train_spd&profession2[350]",
+      "buffName": "박학다식",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train2_caster1",
+      "sortId": 9431,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "훈련실에 배치 시 <@cc.kw>캐스터</> 오퍼레이터의 스킬 훈련 속도 <@cc.vup>+30%</>, 만약 훈련을 통해 스킬 마스터리가 <@cc.vup>2</>레벨까지 오른 경우, 훈련 속도가 <@cc.vup>+45%</> 추가"
+    },
     "train_spd&profession2[320]": {
       "buffId": "train_spd&profession2[320]",
       "buffName": "고행",
@@ -8948,7 +9607,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "훈련실에 배치 시하여 <@cc.kw>스나이퍼</> 훈련 마스터리 스킬이 <@cc.vup>3</>레벨까지 도달한 경우, 시간당 컨디션 소모 <@cc.vdown>+1</>"
+      "description": "훈련실에 배치하여 <@cc.kw>스나이퍼</> 훈련 마스터리 스킬이 <@cc.vup>3</>레벨까지 도달한 경우, 시간당 컨디션 소모 <@cc.vdown>+1</>"
     },
     "dorm_rec_oneself[000]": {
       "buffId": "dorm_rec_oneself[000]",
@@ -9010,12 +9669,24 @@
       "roomType": "DORMITORY",
       "description": "숙소에 배치 시, 자신의 시간당 컨디션 회복 속도<@cc.vup>+0.75</>"
     },
+    "dorm_rec_oneself2[000]": {
+      "buffId": "dorm_rec_oneself2[000]",
+      "buffName": "'독거'",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_one",
+      "sortId": 5002,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "숙소에 배치 시 자신의 시간당 컨디션 회복 속도 <@cc.vup>+0.7</>, 만약 해당 숙소 내에 다른 오퍼레이터가 있는 경우, 모든 인원의 시간당 컨디션 회복 속도 <@cc.vup>+0.05</>"
+    },
     "dorm_rec_single[000]": {
       "buffId": "dorm_rec_single[000]",
       "buffName": "의료 서비스",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single2",
-      "sortId": 5203,
+      "sortId": 5221,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9027,7 +9698,7 @@
       "buffName": "요양",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single2",
-      "sortId": 5204,
+      "sortId": 5222,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9051,19 +9722,31 @@
       "buffName": "자비",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single4",
-      "sortId": 5206,
+      "sortId": 5241,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "숙소에 배치 시, 해당 숙소 안에 자신을 제외한 컨디션이 가득차지 않은 임의 오퍼레이터의 시간당 회복 속도 <@cc.vup>+0.75</> (동종 효과 중 가장 높은 수치만 적용)"
     },
+    "dorm_rec_single[030]": {
+      "buffId": "dorm_rec_single[030]",
+      "buffName": "묵시",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_single3",
+      "sortId": 5231,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "숙소에 배치 시, 해당 숙소 안에 자신을 제외한 컨디션이 가득차지 않은 임의 오퍼레이터의 시간당 회복 속도 <@cc.vup>+0.7</> (동종 효과 중 가장 높은 수치만 적용)"
+    },
     "dorm_rec_single_P[000]": {
       "buffId": "dorm_rec_single_P[000]",
       "buffName": "차 우리기",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single_schwarz",
-      "sortId": 5203,
+      "sortId": 5213,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9075,7 +9758,7 @@
       "buffName": "바베큐 마스터",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single_tomimi",
-      "sortId": 5202,
+      "sortId": 5212,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9099,7 +9782,7 @@
       "buffName": "바이올린 독주",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5314,
+      "sortId": 5324,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9111,7 +9794,7 @@
       "buffName": "아이돌",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5313,
+      "sortId": 5323,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9123,7 +9806,7 @@
       "buffName": "훈훈한 감동",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5312,
+      "sortId": 5322,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9135,7 +9818,7 @@
       "buffName": "지도자",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5311,
+      "sortId": 5321,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9147,7 +9830,7 @@
       "buffName": "동장군",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5321,
+      "sortId": 5331,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9159,7 +9842,7 @@
       "buffName": "램프를 든 여신",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5322,
+      "sortId": 5332,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9171,7 +9854,7 @@
       "buffName": "라이온킹",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5323,
+      "sortId": 5333,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9315,7 +9998,7 @@
       "buffName": "쟁탈",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all1",
-      "sortId": 5302,
+      "sortId": 5311,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9327,7 +10010,7 @@
       "buffName": "해탈",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all&one3",
-      "sortId": 5303,
+      "sortId": 5312,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9339,7 +10022,7 @@
       "buffName": "농요",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all&one3",
-      "sortId": 5304,
+      "sortId": 5313,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9447,12 +10130,36 @@
       "buffName": "인망",
       "buffIcon": "hire",
       "skillIcon": "bskill_hire_spd&ursus2",
-      "sortId": 8501,
+      "sortId": 8401,
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "인사부 사무실에 배치 시, 인맥 레퍼런스의 누적 속도<@cc.vup>+20%</>, 레퍼런스 서칭 <@cc.vup>1</>회 완료 시 마다 <@cc.kw>우르수스 학생자치단</> 단서 획득 확률 증가 (확률은 작업 시간과 모집 인원의 영향을 받음)"
+    },
+    "hire_spd_bd_n1_n1[000]": {
+      "buffId": "hire_spd_bd_n1_n1[000]",
+      "buffName": "순유",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_bd_n1_n1",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "인사부 사무실에 배치 시, 인맥 레퍼런스의 누적 속도<@cc.vup>+20%</>, 모집 인원 수 만큼 <@cc.rem>기억 조각</> <@cc.vup>+10</>개 획득 (초기 모집 인원은 포함하지 않음)"
+    },
+    "hire_spd_bd_n1[000]": {
+      "buffId": "hire_spd_bd_n1[000]",
+      "buffName": "추억 회상",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_memento",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "인사부 사무실에 배치 시, <@cc.rem>기억 조각</> <@cc.vup>1</>개 마다 <@cc.rem>감지 정보</> <@cc.vup>1</>점으로 전환, 컨디션 소진 시 모든 <@cc.rem>기억 조각</>과 <@cc.rem>감지 정보</> 초기화"
     },
     "meet_spd[000]": {
       "buffId": "meet_spd[000]",
@@ -15841,7 +16548,7 @@
         "height": 4,
         "comfort": 140,
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "라임셀라르 연회장용 2단 양초 샹그리에 조명등. 빛은 2배로 환해지지만, 가격이 더 오르지는 않는다.",
+        "description": "라임셀라르 연회장용 2단 양초 샹들리에 조명등. 빛은 2배로 환해지지만, 가격이 더 오르지는 않는다.",
         "obtainApproach": "일부 스테이지 럭키 보상",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -15864,7 +16571,7 @@
         "height": 3,
         "comfort": 80,
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "라임셀라르 연회장용 양초 샹그리에 조명등. 비록 대체 가능한 조명이 발명되긴 했으나, 라임셀라르인은 아직도 양초 사용을 선호한다.",
+        "description": "라임셀라르 연회장용 양초 샹들리에 조명등. 비록 대체 가능한 조명이 발명되긴 했으나, 라임셀라르인은 아직도 양초 사용을 선호한다.",
         "obtainApproach": "일부 스테이지 럭키 보상",
         "processedProductId": "3401",
         "processedProductCount": 5,
@@ -18808,7 +19515,7 @@
         "height": 3,
         "comfort": 90,
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
-        "description": "비싼 천장등의 모조품. 레토는 지금까지도 이렇게 흔들거리는 전당이 대체 어떻게 작동되는 건지 이해하지 못하고 있다.",
+        "description": "비싼 천장등의 모조품. 레토는 지금까지도 이렇게 흔들거리는 전등이 대체 어떻게 작동하는 건지 이해하지 못하고 있다.",
         "obtainApproach": "가구상점 한정 구매",
         "processedProductId": "3401",
         "processedProductCount": 73,
@@ -19302,7 +20009,7 @@
       },
       "furni_office_storageBox_01": {
         "id": "furni_office_storageBox_01",
-        "name": "이동 가능 캐비닛",
+        "name": "이동식 캐비닛",
         "iconId": "furni_office_storageBox_01",
         "type": "CABINET",
         "location": "FLOOR",
@@ -19944,6 +20651,1777 @@
         "canBeDestroy": false,
         "isOnly": 1
       },
+      "furni_midAutumn_screen_01": {
+        "id": "furni_midAutumn_screen_01",
+        "name": "목조 병풍",
+        "iconId": "furni_midAutumn_screen_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 2,
+        "height": 8,
+        "comfort": 375,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국에서 수입한 목조 병풍. 가을바람이 불어오니, 귀빈이 오시려나 보구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 278,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_cabinet_01": {
+        "id": "furni_midAutumn_cabinet_01",
+        "name": "사각 서랍장",
+        "iconId": "furni_midAutumn_cabinet_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 6,
+        "comfort": 260,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "다양한 기능을 포함하고 있는 염국 전통 스타일의 서랍장. 어디 보자… 보물을 어디 숨겨 놓았을꼬…",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 193,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_pottedplant_01": {
+        "id": "furni_midAutumn_pottedplant_01",
+        "name": "분재 식물",
+        "iconId": "furni_midAutumn_pottedplant_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 5,
+        "comfort": 205,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "다른 곳에서 옮겨온 것으로 보이는 식물. 아직 영양 관리 중이라 실외에 놔두긴 어렵다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 168,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_floorLamp_01": {
+        "id": "furni_midAutumn_floorLamp_01",
+        "name": "하이 스탠드 무드등",
+        "iconId": "furni_midAutumn_floorLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 6,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국 가정집에서 자주 쓰는 스타일의 무드등. 불이 오래가고, 화목한 분위기를 연출한다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 163,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_table_01": {
+        "id": "furni_midAutumn_table_01",
+        "name": "낮은 파티 테이블",
+        "iconId": "furni_midAutumn_table_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 4,
+        "height": 5,
+        "comfort": 510,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "명절 음식이 놓인 테이블. 가족과 벗과 이웃이 모두 다 함께, 꽃과 달과 가을을 즐겨보세.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 375,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stool_01": {
+        "id": "furni_midAutumn_stool_01",
+        "name": "목조 원형 의자",
+        "iconId": "furni_midAutumn_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 95,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국 가정집에서 자주 쓰는 나무 의자. 월계수잎 넣고 빚은 쌀떡은 수중 팔선이라, 그야말로 아이처럼 함박웃음이 꽃피는구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 80,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stove_01": {
+        "id": "furni_midAutumn_stove_01",
+        "name": "오리지늄 물주전자",
+        "iconId": "furni_midAutumn_stove_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 135,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "오리지늄을 연료로 사용하여 작동하는 물주전자. 보글보글 끓는 물에 수증기가 모락모락 피어오른다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_sofa_01": {
+        "id": "furni_midAutumn_sofa_01",
+        "name": "신식 긴 의자",
+        "iconId": "furni_midAutumn_sofa_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 4,
+        "height": 3,
+        "comfort": 415,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "서양 디자인을 결합하여 개량한 긴 의자. 한나절 낮잠을 자고 마저 명절을 즐기시길.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 305,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stool2_01": {
+        "id": "furni_midAutumn_stool2_01",
+        "name": "길게 늘린 낮은 걸상",
+        "iconId": "furni_midAutumn_stool2_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 170,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "발을 걸터앉을 수 있는 걸상. 걸터앉아 시를 읊으니, 귓가가 더욱 즐겁구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 155,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_carpet_01": {
+        "id": "furni_midAutumn_carpet_01",
+        "name": "붉은 카펫",
+        "iconId": "furni_midAutumn_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 10,
+        "height": 1,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국 가정집에서 자주 볼 수 있는 카펫. 구속받지 않는 도시 생활이 자유롭다고들 하지만, 그래도 명절이 다가오면 집 생각이 나기 마련이다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 148,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_handLamp_01": {
+        "id": "furni_midAutumn_handLamp_01",
+        "name": "초롱",
+        "iconId": "furni_midAutumn_handLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "초를 켜둔 초롱. 대나무 그림자가 난간에 기대 흔들거리니, 또다시 명절이 다가왔음을 알리는구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 110,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ornaments_01": {
+        "id": "furni_midAutumn_ornaments_01",
+        "name": "벽걸이 서화",
+        "iconId": "furni_midAutumn_ornaments_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 5,
+        "comfort": 90,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "벽에 걸린 서화 작품. 한순간에 오른 흥으로 붓을 휘둘러 만인에게 전하는구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 83,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ceilingLight_01": {
+        "id": "furni_midAutumn_ceilingLight_01",
+        "name": "붉은 명주 장식등",
+        "iconId": "furni_midAutumn_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 5,
+        "comfort": 210,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "붉은 명주로 장식한 장식등. 거실에 걸려 장엄한 분위기를 연출할 수도 있고, 버드나무 위에 걸어 불어오는 바람을 맞이할 수도 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 190,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ceilingLamp_01": {
+        "id": "furni_midAutumn_ceilingLamp_01",
+        "name": "보탑등",
+        "iconId": "furni_midAutumn_ceilingLamp_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 55,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "보탑 양식의 천장등. 초에 불을 붙이고 등을 거니 모두가 기뻐하네.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 45,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_window_01": {
+        "id": "furni_midAutumn_window_01",
+        "name": "전경 디스플레이 (달밤)",
+        "iconId": "furni_midAutumn_window_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 10,
+        "comfort": 310,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "명절 보름달이 뜬 디스플레이. 오늘 밤 그대가 머물길 간청하네, 내일 밤엔 보름달이 뜰 테니.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 230,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_wallpaper_01": {
+        "id": "furni_midAutumn_wallpaper_01",
+        "name": "염국식 거실 벽지",
+        "iconId": "furni_midAutumn_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국에서 명절을 지낼 때 쓰는 벽지 양식. 푸른 담장이 붉게 물들고, 화려한 등불이 옥쟁반을 비추네.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 198,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_floor_01": {
+        "id": "furni_midAutumn_floor_01",
+        "name": "염국식 원목 바닥",
+        "iconId": "furni_midAutumn_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "염국의 전통 원목 바닥. 나무에 발을 올리니 무지개를 밟은듯하고, 하늘 위 걸린 구름을 밟는 것만 같구나.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 198,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_fNearl_cabinet_H_01": {
+        "id": "furni_fNearl_cabinet_H_01",
+        "name": "검&갑옷 거치대",
+        "iconId": "furni_fNearl_cabinet_H_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 2,
+        "height": 9,
+        "comfort": 410,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "니어 가문의 검과 갑옷을 보관하는 거치대. 가문 대대로 전해지는 검과 갑옷 세트는, 현재 마리아가 쓰고 있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_calendar_01": {
+        "id": "furni_fNearl_calendar_01",
+        "name": "훈련용 달력",
+        "iconId": "furni_fNearl_calendar_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 2,
+        "comfort": 55,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "훈련 성과와 시합 일자를 기록하는데 쓰이는 달력. 빨간색 체크 표시가 가득한 달력 종이가 몇 장 찢어져있다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofaStool_R_01": {
+        "id": "furni_fNearl_sofaStool_R_01",
+        "name": "소파 스툴 (원형)",
+        "iconId": "furni_fNearl_sofaStool_R_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 170,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "검은색 원형 소파 스툴. 체스판에 올려져 있지 않은 퀸은, 그저 의미 없는 나뭇조각일 뿐이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofa_M_01": {
+        "id": "furni_fNearl_sofa_M_01",
+        "name": "길게 늘린 소파 (흰색)",
+        "iconId": "furni_fNearl_sofa_M_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 3,
+        "comfort": 300,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "푹신한 흰색 소파. 기진맥진한 기사 한 사람이 누울 수 있을 정도로 길다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofa_S_01": {
+        "id": "furni_fNearl_sofa_S_01",
+        "name": "싱글 소파 (흰색)",
+        "iconId": "furni_fNearl_sofa_S_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 170,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "푹신한 크림 화이트 컬러의 소파. 걱정이 너무 많은 기사 한 사람이 앉을 수 있을 정도의 크기다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofaStool_S_01": {
+        "id": "furni_fNearl_sofaStool_S_01",
+        "name": "소파 스툴 (사각)",
+        "iconId": "furni_fNearl_sofaStool_S_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 2,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "사각형 모양의 대형 소파 스툴. 조피아의 숄이 놓여있다. 어느 기사는 꼭 소파와 세트로 놓인 쿠션을 다른 소파에 놔둔다고 한다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_coffeeTable_01": {
+        "id": "furni_fNearl_coffeeTable_01",
+        "name": "간이 티테이블",
+        "iconId": "furni_fNearl_coffeeTable_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 170,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "유리 커버가 놓인 낮은 티테이블. 킹이 없는 체스에는 체크메이트도 존재할 수 없는 법.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_potted_01": {
+        "id": "furni_fNearl_potted_01",
+        "name": "해바라기 화분",
+        "iconId": "furni_fNearl_potted_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꽃집에서 사온 해바라기. 아무도 돌봐주지 않아 이미 시들기 시작했다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_carpet_01": {
+        "id": "furni_fNearl_carpet_01",
+        "name": "털카펫 (흰색)",
+        "iconId": "furni_fNearl_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 10,
+        "height": 1,
+        "comfort": 185,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "금방 청결 관리를 끝낸 카펫. '청결'이란 세탁을 통해서도 실현할 수 있지만, 아예 새 걸 사서도 실현할 수 있는 법이다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_wallDecor_01": {
+        "id": "furni_fNearl_wallDecor_01",
+        "name": "쿠란타 수호신 조각상",
+        "iconId": "furni_fNearl_banner_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 1,
+        "height": 10,
+        "comfort": 270,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "낡은 집에 남아 있던 예술품. 예전 모습 그대로 벽에 걸려있었다. \"고난과 어둠을 두려워 말라.\"",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_banner_01": {
+        "id": "furni_fNearl_banner_01",
+        "name": "장식용 깃발",
+        "iconId": "furni_fNearl_banner2_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 4,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어느 조각을 장식한 깃발. \"어둠이 어찌 빛을 덮을 수 있으리오……\"",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2
+      },
+      "furni_fNearl_shelf_01": {
+        "id": "furni_fNearl_shelf_01",
+        "name": "대리석 하이 테이블",
+        "iconId": "furni_fNearl_shelf_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 2,
+        "height": 5,
+        "comfort": 355,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "잡다한 물건들이 잔뜩 놓여있는 대리석 테이블. 못다 보낸 것과 못다 읽은 것, 그리고 못다한 것……",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_branchDecor_01": {
+        "id": "furni_fNearl_branchDecor_01",
+        "name": "《새하얀 나뭇가지》",
+        "iconId": "furni_fNearl_branchDecor_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 7,
+        "comfort": 165,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "장식품으로 쓰는 나뭇가지. 나무의 제일 중요한 부분은 기사들의 창을 만드는 데 쓰였고, 남은 부분은 기사 가문의 장식품으로 쓰였다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_cabinet_L_01": {
+        "id": "furni_fNearl_cabinet_L_01",
+        "name": "클래식 진열대",
+        "iconId": "furni_fNearl_cabinet_L_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 5,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "명예로운 것들을 놔두는 데 쓰이는 진열대. 어느 부지런히 훈련하는 기사가 방패를 수납장에 놔두는 걸 깜빡했다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sink_01": {
+        "id": "furni_fNearl_sink_01",
+        "name": "세면대",
+        "iconId": "furni_fNearl_sink_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 4,
+        "comfort": 210,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "문 앞에 놓여 있는 비싼 세면대. 기사가 돌아오면 꼭 손을 씻어야 한다… 겸사겸사 세수도 하고 말이다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_wateringCan_01": {
+        "id": "furni_fNearl_wateringCan_01",
+        "name": "물뿌리개",
+        "iconId": "furni_fNearl_wateringCan_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "그린하우스에 있는 식물에 쓰이는 주둥이가 좁은 물뿌리개. 쓰는 일이 거의 없다보니, 안엔 거의 식물이 자랄 지경이 되었다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_ceilingLight_01": {
+        "id": "furni_fNearl_ceilingLight_01",
+        "name": "옥 천장등 (대형)",
+        "iconId": "furni_fNearl_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 3,
+        "comfort": 150,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "등이 많이 달린 대형 옥 천장등. 가격도 나름 실속있다. 불을 밝히면 그림자가 잔뜩 생겨버린다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_ceilingLight2_01": {
+        "id": "furni_fNearl_ceilingLight2_01",
+        "name": "옥 천장등 (소형)",
+        "iconId": "furni_fNearl_ceilingLight2_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 85,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "등이 하나만 달린 소형 옥 천장등. 서민적인 가격을 자랑한다. 불을 켜면 꼭 어딘가 불빛이 닿지 않는 곳이 생겨버린다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2
+      },
+      "furni_fNearl_wallpaper_01": {
+        "id": "furni_fNearl_wallpaper_01",
+        "name": "기사 귀족 벽지",
+        "iconId": "furni_fNearl_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "기사 귀족들이 자주 쓰는 벽지. '기사'의 방 한 칸보다, 마리아는 자신의 공방을 갖고 싶어 한다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_floor_01": {
+        "id": "furni_fNearl_floor_01",
+        "name": "기사 귀족 바닥 타일",
+        "iconId": "furni_fNearl_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "기사 귀족들이 자주 쓰는 바닥재. 조피아는 디자이너더러 디자인에 관해선 손을 떼라 했지만, 막상 본인도 자세한 사항까지 신경 쓰진 않았다.",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_activity_ceiling_01": {
+        "id": "furni_activity_ceiling_01",
+        "name": "목재 천장 울타리",
+        "iconId": "furni_activity_ceiling_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 20,
+        "depth": 4,
+        "height": 1,
+        "comfort": 230,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "수공예로 만든 천장 장식용 울타리. 작은 천장등이 달려 있다. 뛰어 올라가선 안 됨! 거꾸로 매달려 자는 것도 안됨!",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 163,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_hangingChair_01": {
+        "id": "furni_activity_hangingChair_01",
+        "name": "흔들 소파",
+        "iconId": "furni_activity_hangingChair_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 5,
+        "height": 10,
+        "comfort": 235,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "매우 편안한 그네형 소파. 침대로도 사용할 수 있다. 간혹 스즈란이 꼬리를 늘어뜨린 채 웅크려 앉아 휴식을 취하는 모습을 볼 수 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 165,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_fence_V_01": {
+        "id": "furni_activity_fence_V_01",
+        "name": "나무 울타리(세로)",
+        "iconId": "furni_activity_fence_V_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 1,
+        "depth": 4,
+        "height": 10,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "세로로 설치하는 나무 울타리. 늘 아이들 손이 끼이곤 한다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_column_01": {
+        "id": "furni_activity_column_01",
+        "name": "울타리 기둥",
+        "iconId": "furni_activity_column_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 10,
+        "comfort": 185,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "울타리와 함께 사용하는 기둥으로, 아주 튼튼하다. 아마 포푸카라 할지라도 망가뜨릴 순 없을 것이다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 160,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_fence_S_01": {
+        "id": "furni_activity_fence_S_01",
+        "name": "나무 울타리(가로)",
+        "iconId": "furni_activity_fence_S_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 1,
+        "height": 10,
+        "comfort": 175,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "가로로 설치하는 나무 울타리. 늘 아이들 손이 끼이곤 한다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 150,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_rod_01": {
+        "id": "furni_activity_rod_01",
+        "name": "목재 깃발봉",
+        "iconId": "furni_activity_rod_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 2,
+        "comfort": 95,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "놀이방 인테리어용 천장봉. 봉은 인테리어 담당 오퍼레이터가 걸어주었고, 줄과 깃발은 어린 오퍼레이퍼들이 직접 걸어 두었다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 83,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_carpet_01": {
+        "id": "furni_activity_carpet_01",
+        "name": "퍼즐 카펫",
+        "iconId": "furni_activity_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 8,
+        "height": 1,
+        "comfort": 140,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "직물공이 어린 오퍼레이터들을 데리고 만든 카펫. 매일 카펫 위를 청소할 때마다 나오는 털로 컵 크기의 털 원단을 얻을 수 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 120,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_showcase_01": {
+        "id": "furni_activity_showcase_01",
+        "name": "물이 가득 찬 진열장",
+        "iconId": "furni_activity_showcase_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 6,
+        "comfort": 175,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "수중 환경을 시뮬레이션한 벽걸이형 진열장. 많은 어린 오퍼레이터들이 이 진열장 덕분에 물속에도 생명이 존재한다는 상식을 배웠다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_cabinet_01": {
+        "id": "furni_activity_cabinet_01",
+        "name": "장난감 수납함",
+        "iconId": "furni_activity_cabinet_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 4,
+        "comfort": 175,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "정성껏 개조한 미닫이문 캐비닛. 어린 오퍼레이터들이 가장 좋아하는 장난감이 모두 여기에 들어있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_potted_01": {
+        "id": "furni_activity_potted_01",
+        "name": "푸르른 화분",
+        "iconId": "furni_activity_potted_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 6,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "물을 많이 주지 않았는데도 무럭무럭 자라는 식물. 만약 버블이 방안에 있다면, 절대 이 화분에 접근하지 못하게 할 것!",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_refrigerator_01": {
+        "id": "furni_activity_refrigerator_01",
+        "name": "드럼형 냉장고",
+        "iconId": "furni_activity_refrigerator_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 4,
+        "height": 6,
+        "comfort": 270,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "세탁기를 개조해 만든 냉장고로, 안에는 간식이 가득하다. 대량의 디저트가 몸과 마음에 유익하다는 점은 아이들이 가장 잘 알고 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 190,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_downlight_01": {
+        "id": "furni_activity_downlight_01",
+        "name": "황동 천장등",
+        "iconId": "furni_activity_downlight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 12,
+        "depth": 3,
+        "height": 1,
+        "comfort": 160,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "대형 황동 천장등. 따스한 빛을 뿜어낸다. 언제나 자신의 위치에서 빛나면서 아이들이 서로 장난치는 모습을 지켜보고 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 138,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_stool_01": {
+        "id": "furni_activity_stool_01",
+        "name": "샛노란 원형 의자",
+        "iconId": "furni_activity_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 90,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아이들이 가장 즐겨 앉는 원형 의자. 안전상의 문제로 회전 기능은 들어가 있지 않다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 70,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_artSet_01": {
+        "id": "furni_activity_artSet_01",
+        "name": "수채화 세트",
+        "iconId": "furni_activity_artSet_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 4,
+        "height": 4,
+        "comfort": 195,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아이들의 수채화 세트. 그림을 배워본 오퍼레이터라면 모두들 종이를 이젤 밑에 깔았다간 화실에서 쫓겨난다는 사실을 알고 있다. 다행히도 이건 그냥 장난감일 뿐이다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 138,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_calendar_01": {
+        "id": "furni_activity_calendar_01",
+        "name": "기록용 달력",
+        "iconId": "furni_activity_calendar_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 1,
+        "height": 3,
+        "comfort": 60,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "놀이방 활동 시간을 기록하는 데 사용하는 달력. 매일매일의 기대 속에서, 어린 오퍼레이터들은 점차 성장해나간다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 53,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_tent_01": {
+        "id": "furni_activity_tent_01",
+        "name": "휴식용 텐트",
+        "iconId": "furni_activity_tent_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 7,
+        "depth": 4,
+        "height": 7,
+        "comfort": 370,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "부드럽고 쾌적한 소형 텐트. 어린 오퍼레이터 한 명이 편안하게 잠을 청할 수 있는 사이즈다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 260,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_handLamp_01": {
+        "id": "furni_activity_handLamp_01",
+        "name": "대나무 오리지늄 등",
+        "iconId": "furni_activity_handLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 105,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "대나무 바스켓 안에 넣어둔 오리지늄 등이라 안전하다. 바스켓 안에 유리막이 한 층이 더 있어서, 아이들이 호기심에 다치는 일을 방지할 수 있다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 90,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_lowPartition_01": {
+        "id": "furni_activity_lowPartition_01",
+        "name": "낮은 담벼락",
+        "iconId": "furni_activity_lowPartition_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 2,
+        "height": 5,
+        "comfort": 180,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "어린 오퍼레이터들의 키에 맞춰 제작된 낮은 담. 담 위의 용기에는 알사탕이 들어있는데, 한 번에 너무 많이 먹어선 안 된다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_halfColumn_01": {
+        "id": "furni_activity_halfColumn_01",
+        "name": "낮은 담벼락 기둥",
+        "iconId": "furni_activity_halfColumn_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 1,
+        "depth": 2,
+        "height": 10,
+        "comfort": 140,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "낮은 담과 세트인 기둥. 둘러싸이면 마음이 편안해진다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 120,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_wallpaper_01": {
+        "id": "furni_activity_wallpaper_01",
+        "name": "만화 벽지",
+        "iconId": "furni_activity_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아이들이 직접 디자인한 벽지. 도면 상의 존재를 현실에 구현하는 즐거움은 무엇으로도 대신할 수 없다.",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 188,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_floor_01": {
+        "id": "furni_activity_floor_01",
+        "name": "깨끗한 바닥재",
+        "iconId": "furni_activity_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "아이들의 도움을 받아 깐 바닥재. 시공 중 자신의 맡은 바 책임을 다하는 재미가 쏠쏠하다",
+        "obtainApproach": "가구상점 한정 구매",
+        "processedProductId": "3401",
+        "processedProductCount": 188,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_bed_01": {
+        "id": "furni_kitchen_bed_01",
+        "name": "깔끔한 침대",
+        "iconId": "furni_kitchen_bed_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 3,
+        "comfort": 350,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "꾸며지지 않은 침대, 매우 심플하다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_framed_01": {
+        "id": "furni_kitchen_framed_01",
+        "name": "사진 없는 액자",
+        "iconId": "furni_kitchen_framed_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 3,
+        "comfort": 95,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "규격이 다른 벽걸이 액자, 상상력을 꽤 자극한다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_airPurifier_01": {
+        "id": "furni_kitchen_airPurifier_01",
+        "name": "공기청정기",
+        "iconId": "furni_kitchen_airPurifier_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 140,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "쾌적한 실내 공기질을 유지하기 위한 필수품, 아주 상쾌하다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_partition_01": {
+        "id": "furni_kitchen_partition_01",
+        "name": "공간 분리 장식",
+        "iconId": "furni_kitchen_partition_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 2,
+        "height": 9,
+        "comfort": 210,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "디자인풍 장식. 기능별 공간을 명확히 구분할 수 있도록 도와준다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceilingLight_01": {
+        "id": "furni_kitchen_ceilingLight_01",
+        "name": "원형 장식등",
+        "iconId": "furni_kitchen_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 2,
+        "comfort": 45,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "디자인적 요소로 사용되는 빛을 발하는 소형 장식등, 보조등으로 사용하기 좋다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallSticker_01": {
+        "id": "furni_kitchen_wallSticker_01",
+        "name": "석재 벽지",
+        "iconId": "furni_kitchen_wallSticker_01",
+        "type": "WALLDECO",
+        "location": "POSTER",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 10,
+        "comfort": 50,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "고급 석재로 제작된 검은색 돌벽지, 대비가 두드러진다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_carpet_01": {
+        "id": "furni_kitchen_carpet_01",
+        "name": "가볍고 얇은 카펫",
+        "iconId": "furni_kitchen_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 13,
+        "depth": 10,
+        "height": 1,
+        "comfort": 170,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "실용성을 고려한 카펫, 인테리어에 아주 적합하다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_downlight_01": {
+        "id": "furni_kitchen_downlight_01",
+        "name": "빌트인 천장등",
+        "iconId": "furni_kitchen_downlight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 3,
+        "height": 1,
+        "comfort": 125,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "방 전체의 빛을 밝히는 빌트인 천장등, 광량이 충분하다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceiling_01": {
+        "id": "furni_kitchen_ceiling_01",
+        "name": "포인트 천장등",
+        "iconId": "furni_kitchen_ceiling_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 16,
+        "depth": 2,
+        "height": 2,
+        "comfort": 195,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "특정 위치를 조명할 수 있는 천장등, 개성이 넘친다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_lamp_01": {
+        "id": "furni_kitchen_lamp_01",
+        "name": "스탠드 등",
+        "iconId": "furni_kitchen_lamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 155,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "부드러운 빛을 뿜는 스탠드 등, 균형감이 뛰어나다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallArt_01": {
+        "id": "furni_kitchen_wallArt_01",
+        "name": "현대 공예품",
+        "iconId": "furni_kitchen_wallArt_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 1,
+        "height": 7,
+        "comfort": 175,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "제작자 본인만이 해체할 수 있는 벽면 예술품, 디자인이 매우 뛰어나다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceilingLamps_01": {
+        "id": "furni_kitchen_ceilingLamps_01",
+        "name": "걸이식 조명 세트",
+        "iconId": "furni_kitchen_ceilingLamps_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 3,
+        "height": 4,
+        "comfort": 145,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "일정 비율로 조합된 걸이형 조명 세트, 매우 조화롭다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_worktop_01": {
+        "id": "furni_kitchen_worktop_01",
+        "name": "빌트인 주방 세트",
+        "iconId": "furni_kitchen_worktop_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 9,
+        "depth": 1,
+        "height": 4,
+        "comfort": 160,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "빌트인 주방 세트, 요리에 큰 도움이 된다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_islandWorktop_01": {
+        "id": "furni_kitchen_islandWorktop_01",
+        "name": "다기능 요리 테이블",
+        "iconId": "furni_kitchen_islandWorktop_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 12,
+        "depth": 2,
+        "height": 5,
+        "comfort": 405,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "여러 용도가 결합된 요리 테이블, 범용성이 뛰어나다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_oven_01": {
+        "id": "furni_kitchen_oven_01",
+        "name": "입식 주방 세트",
+        "iconId": "furni_kitchen_oven_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 10,
+        "comfort": 265,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "수납 기능을 겸비한 입식 주방 세트, 넉넉한 수납 공간을 자랑한다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_stool_01": {
+        "id": "furni_kitchen_stool_01",
+        "name": "심플한 식탁의자",
+        "iconId": "furni_kitchen_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 100,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "최소한의 재료로 높은 효용성을 실현한 식탁의자, 디자인이 매우 간결하다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_pottedPlant_01": {
+        "id": "furni_kitchen_pottedPlant_01",
+        "name": "길죽한 화분",
+        "iconId": "furni_kitchen_pottedPlant_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 5,
+        "comfort": 190,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "독특하고 이질적이지만 없어서는 안 되는 자연 화분, 장식용으로 좋다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallpaper_01": {
+        "id": "furni_kitchen_wallpaper_01",
+        "name": "경량화 벽지",
+        "iconId": "furni_kitchen_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "최소한의 가공만을 거친 벽지, 통일성이 뛰어나다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_floor_01": {
+        "id": "furni_kitchen_floor_01",
+        "name": "경량화 바닥재",
+        "iconId": "furni_kitchen_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "최소한의 가공만을 거친 바닥재, 분리성이 뛰어나다.",
+        "obtainApproach": "일부 스테이지 럭키 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
       "furni_MA2020_rabbit_01": {
         "id": "furni_MA2020_rabbit_01",
         "name": "토끼 기계 절구",
@@ -20374,6 +22852,29 @@
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "슈퍼마켓에서 사온 가정용 앞치마. 집안일을 하는 사람한테만 쓸모가 있을 것이다. 뿔이 달린 오퍼레이터가 앞치마를 할 땐 아마 시간이 꽤나 걸릴 것이다.",
         "obtainApproach": "<오후의 일화> 이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_act14d0_arcadegame_01": {
+        "id": "furni_act14d0_arcadegame_01",
+        "name": "신형 오락기",
+        "iconId": "furni_act14d0_arcadegame_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 140,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "클로저가 야심 차게 들여온 최신 오락기로, 동전은 필요 없다. 그저 모두가 게임의 즐거움을 느끼길 바랄 뿐이다.",
+        "obtainApproach": "이벤트 보상",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -21278,6 +23779,75 @@
         "canBeDestroy": false,
         "isOnly": 1
       },
+      "furni_dropS009_faust_01": {
+        "id": "furni_dropS009_faust_01",
+        "name": "플레이트《파우스트》",
+        "iconId": "furni_dropS009_faust_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "\"보라, 너의 영혼을 나눈 탓에 악마도 고통받기 시작했느니라. 그와 너는 둘 다 쓴맛을 본 뒤에도 달콤함을 얻을 수 없으리라.\"",
+        "obtainApproach": "M8-8 하드 모드 첫 클리어 시 드랍",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_laBoheme_01": {
+        "id": "furni_dropS009_laBoheme_01",
+        "name": "플레이트《애지중지》",
+        "iconId": "furni_dropS009_laBoheme_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "\"너희는 몇 번 만난 게 전부이지 않은가, 그런 주제에 뭐가 영원한 사랑이란 말인가?\", \"내가 그녀를 사랑한 세월이 충분히 길다는 건 역사가 알아줄 것이다.\"",
+        "obtainApproach": "이벤트 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_siegfried_01": {
+        "id": "furni_dropS009_siegfried_01",
+        "name": "플레이트《도륙》",
+        "iconId": "furni_dropS009_siegfried_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "\"영웅의 위업은 한 장 한 장 전부 붉은색으로 적어라. 마지막으로 그가 검으로 부정한 것을 벨 때, 찬양의 노래가 갑자기 멈출 것이다.\"",
+        "obtainApproach": "H8-4 첫 클리어 시 드랍",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
       "furni_dropS009_magicFlute_01": {
         "id": "furni_dropS009_magicFlute_01",
         "name": "플레이트《아침과 밤》",
@@ -21294,6 +23864,29 @@
         "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
         "description": "\"이 세상의 모든 것은 변화하고, 아침과 밤을 피할 수 없다. 저울이 이미 비뚤어져 있다면, 당신의 저울추는 어느 곳으로 떨어질까?\"",
         "obtainApproach": "SV-7 하드 모드 첫 클리어 보상",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_etudeOp10No12_01": {
+        "id": "furni_dropS009_etudeOp10No12_01",
+        "name": "플레이트《항쟁》",
+        "iconId": "furni_dropS009_etudeOp10No12_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "숙소를 꾸며 분위기 수치를 높일 수 있다.",
+        "description": "\"난 이미 동포들과 함께 모여, 모두를 위해 소리 높여 찬가를 불렀다. 하지만 넌 이 비극적인 침략에서 무엇을 얻었나? 카시미어의 토지는 영원히 네게 돌아오지 않을 것이다.\"",
+        "obtainApproach": "이벤트 보상",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -25120,6 +27713,464 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_midAutumn": {
+        "id": "furni_set_midAutumn",
+        "name": "염국 스타일 거실",
+        "desc": "염국의 명절 분위기를 재현한 컨셉룸. 밝은 달이 떠오르니, 명절이 또다시 찾아왔구나.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_midAutumn_screen_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_midAutumn_cabinet_01",
+            "pos0": 5,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_pottedplant_01",
+            "pos0": 2,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_floorLamp_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_table_01",
+            "pos0": 12,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool_01",
+            "pos0": 13,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool_01",
+            "pos0": 15,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_stove_01",
+            "pos0": 20,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_sofa_01",
+            "pos0": 24,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool2_01",
+            "pos0": 24,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_carpet_01",
+            "pos0": 20,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_handLamp_01",
+            "pos0": 32,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ornaments_01",
+            "pos0": 31,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLight_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 4,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 8,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 24,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 28,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_window_01",
+            "pos0": 12,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_fNearl": {
+        "id": "furni_set_fNearl",
+        "name": "니어 가문의 거실",
+        "desc": "조피아가 마리아를 도와 만든 거실. 예전과 거의 비슷한 외형을 갖추었다.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_fNearl_cabinet_H_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_calendar_01",
+            "pos0": 8,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_fNearl_sofaStool_R_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_sofa_M_01",
+            "pos0": 9,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_fNearl_sofa_S_01",
+            "pos0": 9,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_fNearl_sofaStool_S_01",
+            "pos0": 18,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_coffeeTable_01",
+            "pos0": 13,
+            "pos1": 7
+          },
+          {
+            "furnitureId": "furni_fNearl_potted_01",
+            "pos0": 20,
+            "pos1": 7
+          },
+          {
+            "furnitureId": "furni_fNearl_carpet_01",
+            "pos0": 8,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_wallDecor_01",
+            "pos0": 13,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_banner_01",
+            "pos0": 11,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_fNearl_banner_01",
+            "pos0": 21,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_fNearl_shelf_01",
+            "pos0": 12,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_fNearl_branchDecor_01",
+            "pos0": 25,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_cabinet_L_01",
+            "pos0": 27,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_sink_01",
+            "pos0": 30,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_wateringCan_01",
+            "pos0": 28,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight2_01",
+            "pos0": 4,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight2_01",
+            "pos0": 26,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_activity": {
+        "id": "furni_set_activity",
+        "name": "노란 빛깔 놀이방",
+        "desc": "아이들을 위해 만든 놀이방, 아이들이 즐거운 시간을 보낼 수 있기를.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_activity_ceiling_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_hangingChair_01",
+            "pos0": 2,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_fence_V_01",
+            "pos0": 21,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_column_01",
+            "pos0": 21,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_fence_S_01",
+            "pos0": 23,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_rod_01",
+            "pos0": 23,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_activity_carpet_01",
+            "pos0": 1,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_activity_showcase_01",
+            "pos0": 1,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_activity_cabinet_01",
+            "pos0": 6,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_activity_potted_01",
+            "pos0": 21,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_refrigerator_01",
+            "pos0": 16,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_downlight_01",
+            "pos0": 22,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_stool_01",
+            "pos0": 28,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_stool_01",
+            "pos0": 30,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_artSet_01",
+            "pos0": 9,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_calendar_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_activity_tent_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_handLamp_01",
+            "pos0": 23,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_activity_lowPartition_01",
+            "pos0": 28,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_halfColumn_01",
+            "pos0": 33,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_kitchen": {
+        "id": "furni_set_kitchen",
+        "name": "새하얀 광야",
+        "desc": "모 디자인 어워드의 대상 작품을 복제해 만든 컨셉룸. 수상자는 소감은 물론, 아무런 말도 없다.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_kitchen_bed_01",
+            "pos0": 0,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_framed_01",
+            "pos0": 2,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_airPurifier_01",
+            "pos0": 6,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_kitchen_partition_01",
+            "pos0": 9,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_ceilingLight_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_wallSticker_01",
+            "pos0": 1,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_carpet_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_downlight_01",
+            "pos0": 14,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_ceiling_01",
+            "pos0": 14,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_lamp_01",
+            "pos0": 16,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_wallArt_01",
+            "pos0": 15,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_ceilingLamps_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_kitchen_worktop_01",
+            "pos0": 21,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_islandWorktop_01",
+            "pos0": 18,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_oven_01",
+            "pos0": 30,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 19,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 22,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 28,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_pottedPlant_01",
+            "pos0": 28,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_kitchen_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -26566,6 +29617,236 @@
           "furni_bolivar_column_01",
           "furni_bolivar_wall_01"
         ]
+      },
+      "furni_set_midAutumn_1": {
+        "id": "furni_set_midAutumn_1",
+        "name": "달 아래서의 한잔",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 285,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_window_01",
+          "furni_midAutumn_table_01",
+          "furni_midAutumn_stool_01",
+          "furni_midAutumn_stove_01"
+        ]
+      },
+      "furni_set_midAutumn_2": {
+        "id": "furni_set_midAutumn_2",
+        "name": "함께 앉아 담소를",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 225,
+        "count": 5,
+        "furniture": [
+          "furni_midAutumn_sofa_01",
+          "furni_midAutumn_stool2_01",
+          "furni_midAutumn_handLamp_01",
+          "furni_midAutumn_ornaments_01",
+          "furni_midAutumn_carpet_01"
+        ]
+      },
+      "furni_set_midAutumn_3": {
+        "id": "furni_set_midAutumn_3",
+        "name": "참신한 수납공간",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 250,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_screen_01",
+          "furni_midAutumn_floorLamp_01",
+          "furni_midAutumn_cabinet_01",
+          "furni_midAutumn_pottedplant_01"
+        ]
+      },
+      "furni_set_midAutumn_4": {
+        "id": "furni_set_midAutumn_4",
+        "name": "명절 인테리어",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 190,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_wallpaper_01",
+          "furni_midAutumn_floor_01",
+          "furni_midAutumn_ceilingLight_01",
+          "furni_midAutumn_ceilingLamp_01"
+        ]
+      },
+      "furni_set_fNearl_1": {
+        "id": "furni_set_fNearl_1",
+        "name": "거실 관상용 진열품",
+        "themeId": "furni_set_fNearl",
+        "comfort": 190,
+        "count": 3,
+        "furniture": [
+          "furni_fNearl_wallDecor_01",
+          "furni_fNearl_shelf_01",
+          "furni_fNearl_banner_01"
+        ]
+      },
+      "furni_set_fNearl_2": {
+        "id": "furni_set_fNearl_2",
+        "name": "거실 라운지",
+        "themeId": "furni_set_fNearl",
+        "comfort": 250,
+        "count": 6,
+        "furniture": [
+          "furni_fNearl_sofa_M_01",
+          "furni_fNearl_sofa_S_01",
+          "furni_fNearl_coffeeTable_01",
+          "furni_fNearl_sofaStool_S_01",
+          "furni_fNearl_potted_01",
+          "furni_fNearl_carpet_01"
+        ]
+      },
+      "furni_set_fNearl_3": {
+        "id": "furni_set_fNearl_3",
+        "name": "기사의 표식",
+        "themeId": "furni_set_fNearl",
+        "comfort": 155,
+        "count": 3,
+        "furniture": [
+          "furni_fNearl_cabinet_H_01",
+          "furni_fNearl_sofaStool_R_01",
+          "furni_fNearl_calendar_01"
+        ]
+      },
+      "furni_set_fNearl_4": {
+        "id": "furni_set_fNearl_4",
+        "name": "거실 레저 공간",
+        "themeId": "furni_set_fNearl",
+        "comfort": 175,
+        "count": 4,
+        "furniture": [
+          "furni_fNearl_branchDecor_01",
+          "furni_fNearl_cabinet_L_01",
+          "furni_fNearl_sink_01",
+          "furni_fNearl_wateringCan_01"
+        ]
+      },
+      "furni_set_fNearl_5": {
+        "id": "furni_set_fNearl_5",
+        "name": "기사 스타일 데코레이션",
+        "themeId": "furni_set_fNearl",
+        "comfort": 160,
+        "count": 4,
+        "furniture": [
+          "furni_fNearl_wallpaper_01",
+          "furni_fNearl_floor_01",
+          "furni_fNearl_ceilingLight_01",
+          "furni_fNearl_ceilingLight2_01"
+        ]
+      },
+      "furni_set_activity_1": {
+        "id": "furni_set_activity_1",
+        "name": "어린 오퍼레이터들이 즐겨 노는 것",
+        "themeId": "furni_set_activity",
+        "comfort": 230,
+        "count": 5,
+        "furniture": [
+          "furni_activity_hangingChair_01",
+          "furni_activity_artSet_01",
+          "furni_activity_cabinet_01",
+          "furni_activity_showcase_01",
+          "furni_activity_carpet_01"
+        ]
+      },
+      "furni_set_activity_2": {
+        "id": "furni_set_activity_2",
+        "name": "어린 오퍼레이터들이 좋아하는 것",
+        "themeId": "furni_set_activity",
+        "comfort": 285,
+        "count": 6,
+        "furniture": [
+          "furni_activity_tent_01",
+          "furni_activity_handLamp_01",
+          "furni_activity_refrigerator_01",
+          "furni_activity_calendar_01",
+          "furni_activity_potted_01",
+          "furni_activity_stool_01"
+        ]
+      },
+      "furni_set_activity_3": {
+        "id": "furni_set_activity_3",
+        "name": "칸막이 인테리어",
+        "themeId": "furni_set_activity",
+        "comfort": 190,
+        "count": 5,
+        "furniture": [
+          "furni_activity_fence_S_01",
+          "furni_activity_fence_V_01",
+          "furni_activity_column_01",
+          "furni_activity_lowPartition_01",
+          "furni_activity_halfColumn_01"
+        ]
+      },
+      "furni_set_activity_4": {
+        "id": "furni_set_activity_4",
+        "name": "놀이방 인테리어",
+        "themeId": "furni_set_activity",
+        "comfort": 185,
+        "count": 5,
+        "furniture": [
+          "furni_activity_wallpaper_01",
+          "furni_activity_floor_01",
+          "furni_activity_ceiling_01",
+          "furni_activity_rod_01",
+          "furni_activity_downlight_01"
+        ]
+      },
+      "furni_set_kitchen_1": {
+        "id": "furni_set_kitchen_1",
+        "name": "수면 공간",
+        "themeId": "furni_set_kitchen",
+        "comfort": 230,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_bed_01",
+          "furni_kitchen_framed_01",
+          "furni_kitchen_airPurifier_01",
+          "furni_kitchen_partition_01",
+          "furni_kitchen_carpet_01"
+        ]
+      },
+      "furni_set_kitchen_2": {
+        "id": "furni_set_kitchen_2",
+        "name": "요리 공간",
+        "themeId": "furni_set_kitchen",
+        "comfort": 290,
+        "count": 4,
+        "furniture": [
+          "furni_kitchen_islandWorktop_01",
+          "furni_kitchen_worktop_01",
+          "furni_kitchen_oven_01",
+          "furni_kitchen_stool_01"
+        ]
+      },
+      "furni_set_kitchen_3": {
+        "id": "furni_set_kitchen_3",
+        "name": "조명 조합",
+        "themeId": "furni_set_kitchen",
+        "comfort": 135,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_downlight_01",
+          "furni_kitchen_ceiling_01",
+          "furni_kitchen_ceilingLamps_01",
+          "furni_kitchen_ceilingLight_01",
+          "furni_kitchen_lamp_01"
+        ]
+      },
+      "furni_set_kitchen_4": {
+        "id": "furni_set_kitchen_4",
+        "name": "전체 분위기",
+        "themeId": "furni_set_kitchen",
+        "comfort": 190,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_wallpaper_01",
+          "furni_kitchen_floor_01",
+          "furni_kitchen_wallArt_01",
+          "furni_kitchen_wallSticker_01",
+          "furni_kitchen_pottedPlant_01"
+        ]
       }
     },
     "types": {
@@ -27455,6 +30736,115 @@
       ],
       "requireStages": []
     },
+    "57": {
+      "sortId": 2000,
+      "formulaId": "57",
+      "rarity": 0,
+      "itemId": "30145",
+      "count": 1,
+      "goldCost": 400,
+      "apCost": 2880000,
+      "formulaType": "F_EVOLVE",
+      "buffType": "W_EVOLVE",
+      "extraOutcomeRate": 0.1,
+      "extraOutcomeGroup": [
+        {
+          "weight": 84,
+          "itemId": "30014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30024",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30034",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30044",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30054",
+          "itemCount": 1
+        },
+        {
+          "weight": 42,
+          "itemId": "30064",
+          "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "30074",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30084",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30094",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30104",
+          "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "31014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "31024",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "31034",
+          "count": 1,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31014",
+          "count": 2,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31024",
+          "count": 1,
+          "type": "MATERIAL"
+        }
+      ],
+      "requireRooms": [
+        {
+          "roomId": "WORKSHOP",
+          "roomLevel": 3,
+          "roomCount": 1
+        }
+      ],
+      "requireStages": [
+        {
+          "stageId": "sub_05-4-3",
+          "rank": 2
+        }
+      ]
+    },
     "12": {
       "sortId": 2001,
       "formulaId": "12",
@@ -27525,6 +30915,11 @@
         {
           "weight": 63,
           "itemId": "31024",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
           "itemCount": 1
         }
       ],
@@ -27625,6 +31020,11 @@
           "weight": 63,
           "itemId": "31024",
           "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -27719,6 +31119,11 @@
           "weight": 63,
           "itemId": "31024",
           "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -27746,6 +31151,115 @@
         }
       ],
       "requireStages": []
+    },
+    "58": {
+      "sortId": 2100,
+      "formulaId": "58",
+      "rarity": 0,
+      "itemId": "31034",
+      "count": 1,
+      "goldCost": 300,
+      "apCost": 1440000,
+      "formulaType": "F_EVOLVE",
+      "buffType": "W_EVOLVE",
+      "extraOutcomeRate": 0.1,
+      "extraOutcomeGroup": [
+        {
+          "weight": 60,
+          "itemId": "30013",
+          "itemCount": 1
+        },
+        {
+          "weight": 50,
+          "itemId": "30023",
+          "itemCount": 1
+        },
+        {
+          "weight": 50,
+          "itemId": "30033",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30043",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30053",
+          "itemCount": 1
+        },
+        {
+          "weight": 30,
+          "itemId": "30063",
+          "itemCount": 1
+        },
+        {
+          "weight": 45,
+          "itemId": "30073",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30083",
+          "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "30093",
+          "itemCount": 1
+        },
+        {
+          "weight": 30,
+          "itemId": "30103",
+          "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "31033",
+          "count": 2,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31013",
+          "count": 1,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31023",
+          "count": 1,
+          "type": "MATERIAL"
+        }
+      ],
+      "requireRooms": [
+        {
+          "roomId": "WORKSHOP",
+          "roomLevel": 3,
+          "roomCount": 1
+        }
+      ],
+      "requireStages": [
+        {
+          "stageId": "sub_03-3-2",
+          "rank": 2
+        }
+      ]
     },
     "55": {
       "sortId": 2101,
@@ -27817,6 +31331,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -27922,6 +31441,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28026,6 +31550,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28124,6 +31653,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28224,6 +31758,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28322,6 +31861,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28540,6 +32084,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28756,6 +32305,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28974,6 +32528,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -29190,6 +32749,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -29408,6 +32972,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -29624,6 +33193,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],

@@ -2945,7 +2945,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -3152,7 +3152,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -3225,7 +3225,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -3712,7 +3712,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -3925,7 +3925,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[001]",
+              "buffId": "manu_prod_spd[010]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4020,7 +4020,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[001]",
+              "buffId": "power_rec_spd[010]",
               "cond": {
                 "phase": 1,
                 "level": 1
@@ -4093,7 +4093,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[002]",
+              "buffId": "power_rec_spd[020]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4232,14 +4232,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[030]",
+              "buffId": "power_rec_spd[014]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[031]",
+              "buffId": "power_rec_spd[021]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -4259,7 +4259,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[010]",
+              "buffId": "manu_prod_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -4313,7 +4313,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_spd[010]",
+              "buffId": "manu_prod_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -5079,14 +5079,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[020]",
+              "buffId": "power_rec_spd[013]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -5379,14 +5379,14 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[040]",
+              "buffId": "power_rec_spd[003]",
               "cond": {
                 "phase": 0,
                 "level": 1
               }
             },
             {
-              "buffId": "power_rec_spd[041]",
+              "buffId": "power_rec_spd[015]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -5890,7 +5890,7 @@
         {
           "buffData": [
             {
-              "buffId": "power_rec_spd[010]",
+              "buffId": "power_rec_spd[001]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6113,7 +6113,7 @@
         {
           "buffData": [
             {
-              "buffId": "workshop_formula_cost3[111]",
+              "buffId": "workshop_formula_cost3[120]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6176,7 +6176,7 @@
               }
             },
             {
-              "buffId": "trade_ord_wt&cost[001]",
+              "buffId": "trade_ord_wt&cost[010]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6189,6 +6189,34 @@
         }
       ]
     },
+    "char_385_finlpp": {
+      "charId": "char_385_finlpp",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "power_rec_spd[011]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd&trade[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
     "char_2013_cerber": {
       "charId": "char_2013_cerber",
       "maxManpower": 8640000,
@@ -6196,7 +6224,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_prod_limit&cost[001]",
+              "buffId": "manu_prod_limit&cost[002]",
               "cond": {
                 "phase": 0,
                 "level": 1
@@ -6241,6 +6269,34 @@
         },
         {
           "buffData": []
+        }
+      ]
+    },
+    "char_159_peacok": {
+      "charId": "char_159_peacok",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single[030]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[001]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -6601,7 +6657,7 @@
         {
           "buffData": [
             {
-              "buffId": "workshop_formula_cost3[200]",
+              "buffId": "workshop_formula_cost3[220]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -6774,7 +6830,7 @@
         {
           "buffData": [
             {
-              "buffId": "manu_formula_limit[000]",
+              "buffId": "manu_formula_limit[0000]",
               "cond": {
                 "phase": 2,
                 "level": 1
@@ -7040,6 +7096,369 @@
         }
       ]
     },
+    "char_350_surtr": {
+      "charId": "char_350_surtr",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession[120]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": []
+        }
+      ]
+    },
+    "char_365_aprl": {
+      "charId": "char_365_aprl",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "trade_ord_spd&limit[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "trade_ord_spd&limit[001]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_all[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_271_spikes": {
+      "charId": "char_271_spikes",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_dorm[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "workshop_formula_dorm[001]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_oneself2[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_388_mint": {
+      "charId": "char_388_mint",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession2[050]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "train_spd&profession2[350]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_formula_spd[201]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_423_blemsh": {
+      "charId": "char_423_blemsh",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_free[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost2[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_346_aosta": {
+      "charId": "char_346_aosta",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost3[110]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[030]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_381_bubble": {
+      "charId": "char_381_bubble",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_limit&cost[010]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_variable3[000]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_265_sophia": {
+      "charId": "char_265_sophia",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd&profession[020]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "train_spd[0000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_391_rosmon": {
+      "charId": "char_391_rosmon",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "manu_prod_spd_bd[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            },
+            {
+              "buffId": "manu_prod_spd_bd[010]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_311_mudrok": {
+      "charId": "char_311_mudrok",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_cost4[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "workshop_formula_device[050]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_436_whispr": {
+      "charId": "char_436_whispr",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1_n1[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "hire_spd_bd_n1[000]",
+              "cond": {
+                "phase": 2,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "char_347_jaksel": {
+      "charId": "char_347_jaksel",
+      "maxManpower": 8640000,
+      "buffChar": [
+        {
+          "buffData": [
+            {
+              "buffId": "dorm_rec_single&oneself[000]",
+              "cond": {
+                "phase": 0,
+                "level": 1
+              }
+            }
+          ]
+        },
+        {
+          "buffData": [
+            {
+              "buffId": "meet_spd[0010]",
+              "cond": {
+                "phase": 1,
+                "level": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
     "char_504_rguard": {
       "charId": "char_504_rguard",
       "maxManpower": 8640000,
@@ -7143,7 +7562,7 @@
       "buffName": "Agreement",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_t_spd",
-      "sortId": 1303,
+      "sortId": 1403,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7155,7 +7574,7 @@
       "buffName": "Princess",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_t_spd",
-      "sortId": 1302,
+      "sortId": 1402,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7167,19 +7586,19 @@
       "buffName": "I've Got This",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_p_bot",
-      "sortId": 1301,
+      "sortId": 1601,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "CONTROL",
-      "description": "When this Operator is assigned to the Control Center, if <@cc.kw>Lancet-2</> is assigned to a <@cc.kw>Power Plant</>, it will count as an additional <@cc.kw>2</>  <@cc.kw>Power Plants</> (only affects the facility count)"
+      "description": "When this Operator is assigned to the Control Center, if <@cc.kw>Lancet-2</> is assigned to a <@cc.kw>Power Plant</>,  <@cc.kw>Power Plant</> count <@cc.vup>+2</> (only affects the facility count)"
     },
     "control_clue_cost[000]": {
       "buffId": "control_clue_cost[000]",
       "buffName": "Neuroticism",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt",
-      "sortId": 1503,
+      "sortId": 1003,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7191,7 +7610,7 @@
       "buffName": "Picky",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt1",
-      "sortId": 1501,
+      "sortId": 1001,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7203,7 +7622,7 @@
       "buffName": "Discernment",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_c_wt2",
-      "sortId": 1502,
+      "sortId": 1002,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7215,7 +7634,7 @@
       "buffName": "Capable Assistance",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1003,
+      "sortId": 1103,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7227,7 +7646,7 @@
       "buffName": "S.W.E.E.P.",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1002,
+      "sortId": 1102,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7239,7 +7658,7 @@
       "buffName": "Snack Network",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1001,
+      "sortId": 1101,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7251,7 +7670,7 @@
       "buffName": "Cleaning Agreement",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1004,
+      "sortId": 1104,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7263,7 +7682,7 @@
       "buffName": "Substitute",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1005,
+      "sortId": 1105,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7275,7 +7694,7 @@
       "buffName": "Necessary Responsibility",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_cost",
-      "sortId": 1006,
+      "sortId": 1106,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7287,7 +7706,7 @@
       "buffName": "Integrity & Capability",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_lungmen",
-      "sortId": 1103,
+      "sortId": 1203,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7299,7 +7718,7 @@
       "buffName": "Student Council President",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_ussg",
-      "sortId": 1102,
+      "sortId": 1202,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7311,7 +7730,7 @@
       "buffName": "Adamantly Easygoing",
       "buffIcon": "control",
       "skillIcon": "bskill_ctrl_lda",
-      "sortId": 1201,
+      "sortId": 1301,
       "buffColor": "#005752",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -7323,7 +7742,7 @@
       "buffName": "Enthusiasm",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd&cost",
-      "sortId": 2002,
+      "sortId": 2003,
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7342,8 +7761,8 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>"
     },
-    "power_rec_spd[001]": {
-      "buffId": "power_rec_spd[001]",
+    "power_rec_spd[010]": {
+      "buffId": "power_rec_spd[010]",
       "buffName": "Equipment Maintenance",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7354,8 +7773,20 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+15%</>"
     },
-    "power_rec_spd[002]": {
-      "buffId": "power_rec_spd[002]",
+    "power_rec_spd[011]": {
+      "buffId": "power_rec_spd[011]",
+      "buffName": "Clean Energy",
+      "buffIcon": "power",
+      "skillIcon": "bskill_pow_spd2",
+      "sortId": 2101,
+      "buffColor": "#8fc31f",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "POWER",
+      "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+15%</>"
+    },
+    "power_rec_spd[020]": {
+      "buffId": "power_rec_spd[020]",
       "buffName": "Electrostatic Field",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd3",
@@ -7366,8 +7797,8 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+20%</>"
     },
-    "power_rec_spd[010]": {
-      "buffId": "power_rec_spd[010]",
+    "power_rec_spd[001]": {
+      "buffId": "power_rec_spd[001]",
       "buffName": "Heat Charge α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd1",
@@ -7378,8 +7809,8 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>"
     },
-    "power_rec_spd[020]": {
-      "buffId": "power_rec_spd[020]",
+    "power_rec_spd[013]": {
+      "buffId": "power_rec_spd[013]",
       "buffName": "Superheat Charge",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7390,8 +7821,8 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+15%</>"
     },
-    "power_rec_spd[030]": {
-      "buffId": "power_rec_spd[030]",
+    "power_rec_spd[014]": {
+      "buffId": "power_rec_spd[014]",
       "buffName": "Pulsed Arc α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7402,8 +7833,8 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+15%</>"
     },
-    "power_rec_spd[031]": {
-      "buffId": "power_rec_spd[031]",
+    "power_rec_spd[021]": {
+      "buffId": "power_rec_spd[021]",
       "buffName": "Pulsed Arc β",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd3",
@@ -7414,20 +7845,20 @@
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+20%</>"
     },
-    "power_rec_spd[040]": {
-      "buffId": "power_rec_spd[040]",
+    "power_rec_spd[003]": {
+      "buffId": "power_rec_spd[003]",
       "buffName": "Electromagnetic Charge α",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd1",
-      "sortId": 2003,
+      "sortId": 2004,
       "buffColor": "#8fc31f",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "POWER",
       "description": "When this Operator is assigned to a Power Plant, increases the drone recovery rate by <@cc.vup>+10%</>"
     },
-    "power_rec_spd[041]": {
-      "buffId": "power_rec_spd[041]",
+    "power_rec_spd[015]": {
+      "buffId": "power_rec_spd[015]",
       "buffName": "Electromagnetic Charge β",
       "buffIcon": "power",
       "skillIcon": "bskill_pow_spd2",
@@ -7448,31 +7879,31 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</>, but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+5%</>"
+      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</> (excluding the additional productivity affected by facility count), but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+5%</>"
     },
     "manu_prod_spd&power[010]": {
       "buffId": "manu_prod_spd&power[010]",
       "buffName": "Automation β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&power2",
-      "sortId": 3521,
+      "sortId": 3511,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</>, but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+10%</>"
+      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</> (excluding the additional productivity affected by facility count), but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+10%</>"
     },
     "manu_prod_spd&power[020]": {
       "buffId": "manu_prod_spd&power[020]",
       "buffName": "Bionic Seadragon",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&power3",
-      "sortId": 3533,
+      "sortId": 3521,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</>, but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+15%</>"
+      "description": "When this Operator is assigned to a Factory, the productivity contributed by all other Operators in that Factory <@cc.vdown>becomes 0</> (excluding the additional productivity affected by facility count), but each <@cc.kw>Power Plant</> increases that Factory’s productivity by <@cc.vup>+15%</>"
     },
     "manu_prod_spd[000]": {
       "buffId": "manu_prod_spd[000]",
@@ -7486,8 +7917,8 @@
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, productivity <@cc.vup>+15%</>"
     },
-    "manu_prod_spd[001]": {
-      "buffId": "manu_prod_spd[001]",
+    "manu_prod_spd[010]": {
+      "buffId": "manu_prod_spd[010]",
       "buffName": "Standardization β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd2",
@@ -7498,12 +7929,12 @@
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, productivity <@cc.vup>+25%</>"
     },
-    "manu_prod_spd[010]": {
-      "buffId": "manu_prod_spd[010]",
+    "manu_prod_spd[001]": {
+      "buffId": "manu_prod_spd[001]",
       "buffName": "Rhine Tech α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd1",
-      "sortId": 3532,
+      "sortId": 3533,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7551,7 +7982,7 @@
       "buffName": "Right Now",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd_add1",
-      "sortId": 3203,
+      "sortId": 3204,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7630,17 +8061,29 @@
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, capacity limit <@cc.vup>+8</> and Morale consumed per hour <@cc.vup>-0.25</>"
     },
-    "manu_prod_limit&cost[001]": {
-      "buffId": "manu_prod_limit&cost[001]",
+    "manu_prod_limit&cost[002]": {
+      "buffId": "manu_prod_limit&cost[002]",
       "buffName": "I Want It All",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_limit&cost1",
-      "sortId": 3203,
+      "sortId": 3204,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, capacity limit <@cc.vup>+8</> and Morale consumed per hour <@cc.vup>-0.25</>"
+    },
+    "manu_prod_limit&cost[010]": {
+      "buffId": "manu_prod_limit&cost[010]",
+      "buffName": "Hoarder",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_limit&cost2",
+      "sortId": 3211,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, capacity limit <@cc.vup>+10</> and Morale consumed per hour <@cc.vup>-0.25</>"
     },
     "manu_prod_limit&cost[020]": {
       "buffId": "manu_prod_limit&cost[020]",
@@ -7666,12 +8109,12 @@
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, the Morale consumed when producing <@cc.kw>Battle Records</> is reduced by <@cc.vup>-0.25</>"
     },
-    "manu_formula_limit[000]": {
-      "buffId": "manu_formula_limit[000]",
+    "manu_formula_limit[0000]": {
+      "buffId": "manu_formula_limit[0000]",
       "buffName": "Editing α",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp&limit",
-      "sortId": 3403,
+      "skillIcon": "bskill_man_exp&limit1",
+      "sortId": 3301,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7682,8 +8125,8 @@
       "buffId": "manu_formula_limit[010]",
       "buffName": "Editing β",
       "buffIcon": "manufacture",
-      "skillIcon": "bskill_man_exp&limit",
-      "sortId": 3535,
+      "skillIcon": "bskill_man_exp&limit2",
+      "sortId": 3302,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7695,7 +8138,7 @@
       "buffName": "Craftsmanship Spirit α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost1",
-      "sortId": 3301,
+      "sortId": 3303,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7707,7 +8150,7 @@
       "buffName": "Craftsmanship Spirit β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_spd&limit&cost2",
-      "sortId": 3303,
+      "sortId": 3304,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7750,6 +8193,18 @@
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, Operators assigned to the Factory increase all capacity limits, add <@cc.vup>2%</> productivity."
     },
+    "manu_prod_spd_variable3[000]": {
+      "buffId": "manu_prod_spd_variable3[000]",
+      "buffName": "Bigger is Better!",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_variable31",
+      "sortId": 3211,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, increases the productivity of Operators in that Factory based upon their increased capacity limit. Operators with <@cc.vup>18</> or less increased capacity limit gain <@cc.vup>1%</> productivity; Operators with greater than <@cc.vup>18</> increased capacity limit gain <@cc.vup>3%</> productivity (This effect does not stack with <@cc.rem>Recycling</> and takes priority over it)"
+    },
     "manu_prod_spd_variable2[000]": {
       "buffId": "manu_prod_spd_variable2[000]",
       "buffName": "Cooperative Will",
@@ -7760,7 +8215,43 @@
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
-      "description": "When this Operator is assigned to a Factory, provides an additional <@cc.vup>5%</> productivity for every <@cc.vup>5%</> productivity provided by all other Operators assigned to that Factory, up to a maximum of <@cc.vup>40%</> productivity."
+      "description": "When this Operator is assigned to a Factory, provides an additional <@cc.vup>5%</> productivity for every <@cc.vup>5%</> productivity provided by all other Operators assigned to that Factory (excluding the additional productivity affected by facility count), up to a maximum of <@cc.vup>40%</> productivity."
+    },
+    "manu_prod_spd_bd_n1[000]": {
+      "buffId": "manu_prod_spd_bd_n1[000]",
+      "buffName": "Extrasensory",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd_n1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, for every <@cc.kw>1</> operator in the Dormitories, <@cc.rem>Perception Information</> <@cc.vup>+1</>. Additionally, every <@cc.vup>1</> point(s) of <@cc.rem>Perception Information</> is converted into <@cc.vup>1</> point(s) of <@cc.rem>Chain of Thought</>"
+    },
+    "manu_prod_spd_bd[000]": {
+      "buffId": "manu_prod_spd_bd[000]",
+      "buffName": "Psychokinesis",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd1",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to Factory, for every <@cc.vup>2</> point(s) of <@cc.rem>Chain of Thought</>, productivity <@cc.vup>+1%</>"
+    },
+    "manu_prod_spd_bd[010]": {
+      "buffId": "manu_prod_spd_bd[010]",
+      "buffName": "Manifestation of Consciousness",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd_bd2",
+      "sortId": 3610,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to Factory, for every <@cc.vup>1</> point(s) of <@cc.rem>Chain of Thought</>, productivity <@cc.vup>+1%</>"
     },
     "manu_formula_spd[000]": {
       "buffId": "manu_formula_spd[000]",
@@ -7785,6 +8276,18 @@
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, <@cc.kw>Battle Record</> formula related productivity <@cc.vup>+35%</>"
+    },
+    "manu_prod_spd&trade[000]": {
+      "buffId": "manu_prod_spd&trade[000]",
+      "buffName": "Renewable Energy",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_spd&trade",
+      "sortId": 3701,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, every <@cc.kw>Trading Post</> makes the Factory's <@cc.kw>Precious Metal</> formula related productivity <@cc.vup>+20%</>"
     },
     "manu_formula_spd[100]": {
       "buffId": "manu_formula_spd[100]",
@@ -7815,7 +8318,7 @@
       "buffName": "Originium Work α",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium1",
-      "sortId": 3002,
+      "sortId": 3011,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
@@ -7827,12 +8330,24 @@
       "buffName": "Originium Work β",
       "buffIcon": "manufacture",
       "skillIcon": "bskill_man_originium2",
-      "sortId": 3003,
+      "sortId": 3021,
       "buffColor": "#ffd800",
       "textColor": "#333333",
       "buffCategory": "OUTPUT",
       "roomType": "MANUFACTURE",
       "description": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+35%</>"
+    },
+    "manu_formula_spd[201]": {
+      "buffId": "manu_formula_spd[201]",
+      "buffName": "Geology α",
+      "buffIcon": "manufacture",
+      "skillIcon": "bskill_man_originium1",
+      "sortId": 3012,
+      "buffColor": "#ffd800",
+      "textColor": "#333333",
+      "buffCategory": "OUTPUT",
+      "roomType": "MANUFACTURE",
+      "description": "When this Operator is assigned to a Factory, <@cc.kw>Originium</> formula related productivity <@cc.vup>+30%</>"
     },
     "manu_formula_spd[211]": {
       "buffId": "manu_formula_spd[211]",
@@ -7947,7 +8462,7 @@
       "buffName": "Whispers",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_vodfox",
-      "sortId": 4901,
+      "sortId": 4903,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7971,7 +8486,7 @@
       "buffName": "Heavenly Reward β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd_variable22",
-      "sortId": 4701,
+      "sortId": 4901,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -7990,6 +8505,18 @@
       "roomType": "TRADING",
       "description": "When this Operator is assigned to a Trading Post, order acquisition efficiency <@cc.vup>+10%</> and the order limit <@cc.vup>+2</>"
     },
+    "trade_ord_spd&limit[001]": {
+      "buffId": "trade_ord_spd&limit[001]",
+      "buffName": "Order Management β",
+      "buffIcon": "trading",
+      "skillIcon": "bskill_tra_spd&limit2",
+      "sortId": 4102,
+      "buffColor": "#0075a9",
+      "textColor": "#ffffff",
+      "buffCategory": "OUTPUT",
+      "roomType": "TRADING",
+      "description": "When this Operator is assigned to a Trading Post, order acquisition efficiency <@cc.vup>+10%</> and the order limit <@cc.vup>+4</>"
+    },
     "trade_ord_spd&limit[010]": {
       "buffId": "trade_ord_spd&limit[010]",
       "buffName": "Supply Management",
@@ -8007,7 +8534,7 @@
       "buffName": "Karlan Commercial α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_spd&limit3",
-      "sortId": 4102,
+      "sortId": 4201,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8115,43 +8642,43 @@
       "buffName": "Street Economics",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_limit_diff",
-      "sortId": 4004,
+      "sortId": 4023,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "When this Operator is assigned to a Trading Post, increases order acquisition efficiency by <@cc.vup>+4%</> for every difference of <@cc.vup>1</> orders between the current number of orders and the maximum number of orders"
+      "description": "When this Operator is assigned to a Trading Post, increases order acquisition efficiency by <@cc.vup>+4%</> for every difference of <@cc.vup>1</> order(s) between the current number of orders and the maximum number of orders"
     },
     "trade_ord_limit_count[000]": {
       "buffId": "trade_ord_limit_count[000]",
       "buffName": "Basic Needs",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_limit_count",
-      "sortId": 4004,
+      "sortId": 4023,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
-      "description": "When this Operator is assigned to a Trading Post, reduces the order limit by <@cc.vdown>-1</> for every <@cc.vup>10%</> order acquisition efficiency provided by all other Operators stationed at that Trading Post; furthermore, increases order acquisition efficiency by <@cc.vup>+4%</> per every <@cc.vup>1</> orders"
+      "description": "When this Operator is assigned to a Trading Post, reduces the order limit by <@cc.vdown>-1</> for every <@cc.vup>10%</> order acquisition efficiency provided by all other Operators stationed at that Trading Post; furthermore, increases order acquisition efficiency by <@cc.vup>+4%</> per every <@cc.vup>1</> order(s)"
     },
     "trade_ord_wt&cost[000]": {
       "buffId": "trade_ord_wt&cost[000]",
       "buffName": "Tailoring α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_wt&cost1",
-      "sortId": 4002,
+      "sortId": 4011,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
       "roomType": "TRADING",
       "description": "When this Operator is assigned to a Trading Post, the chance of getting <@cc.kw>higher-yield Precious Metal orders</> is <@cc.kw>increased slightly</> (rate is influenced by length of work time), and Morale consumed per hour is reduced by <@cc.vup>-0.25</>"
     },
-    "trade_ord_wt&cost[001]": {
-      "buffId": "trade_ord_wt&cost[001]",
+    "trade_ord_wt&cost[010]": {
+      "buffId": "trade_ord_wt&cost[010]",
       "buffName": "Tailoring β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_wt&cost2",
-      "sortId": 4003,
+      "sortId": 4012,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8187,7 +8714,7 @@
       "buffName": "Hidden Purpose α",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_Lappland1",
-      "sortId": 4903,
+      "sortId": 4905,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8199,7 +8726,7 @@
       "buffName": "Hidden Purpose β",
       "buffIcon": "trading",
       "skillIcon": "bskill_tra_Lappland2",
-      "sortId": 4903,
+      "sortId": 4905,
       "buffColor": "#0075a9",
       "textColor": "#ffffff",
       "buffCategory": "OUTPUT",
@@ -8302,6 +8829,30 @@
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>any material</>, this Operator’s Morale will be <@cc.kw>restored once</> for every <@cc.vup>2</> times no byproducts are produced during processing, equal to the Morale consumed <@cc.kw>for processing that corresponding formula one time</> (the final Morale total is calculated after processing is completed)"
     },
+    "workshop_formula_cost4[000]": {
+      "buffId": "workshop_formula_cost4[000]",
+      "buffName": "Perseverance",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_constant",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>elite material</>, the corresponding formulas will only consume <@cc.vup>2</> Morale"
+    },
+    "workshop_formula_cost2[000]": {
+      "buffId": "workshop_formula_cost2[000]",
+      "buffName": "Passionate Tinker",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_cost_blemishine",
+      "sortId": 7501,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, increases the byproduct production rate by <@cc.vup>40%</>, and decreases the Morale consumption of recipes that cost <@cc.kw>8</> Morale or more by <@cc.vup>-4</>"
+    },
     "workshop_formula_cost[010]": {
       "buffId": "workshop_formula_cost[010]",
       "buffName": "Reckless",
@@ -8331,15 +8882,15 @@
       "buffName": "Inspiration",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve_cost1",
-      "sortId": 7541,
+      "sortId": 7052,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>4</> Morale by <@cc.vup>-1</>"
     },
-    "workshop_formula_cost3[111]": {
-      "buffId": "workshop_formula_cost3[111]",
+    "workshop_formula_cost3[120]": {
+      "buffId": "workshop_formula_cost3[120]",
       "buffName": "Pragmatic Minimalism",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_evolve_cost2",
@@ -8350,24 +8901,24 @@
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>4</> Morale by <@cc.vup>-2</>"
     },
-    "workshop_formula_cost3[200]": {
-      "buffId": "workshop_formula_cost3[200]",
+    "workshop_formula_cost3[220]": {
+      "buffId": "workshop_formula_cost3[220]",
       "buffName": "Mineral Beneficiation",
       "buffIcon": "workshop",
-      "skillIcon": "bskill_ws_build_cost1",
-      "sortId": 7041,
+      "skillIcon": "bskill_ws_build_cost2",
+      "sortId": 7411,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
       "roomType": "WORKSHOP",
-      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Building materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>2</> Morale by <@cc.vup>-1</>"
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Building materials</>, reduces the Morale consumed by all corresponding formulas that cost <@cc.kw>4</> Morale by <@cc.vup>-2</>"
     },
     "workshop_formula_cost3[300]": {
       "buffId": "workshop_formula_cost3[300]",
       "buffName": "Asceticism",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_asc_cost1",
-      "sortId": 7021,
+      "sortId": 7201,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8530,6 +9081,42 @@
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>elite material</>, the production rate of byproduct increases by <@cc.vup>100%</>"
     },
+    "workshop_formula_dorm[000]": {
+      "buffId": "workshop_formula_dorm[000]",
+      "buffName": "Waste Not, Want Not",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_dorm1",
+      "sortId": 7551,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, increases the byproduct production rate by <@cc.vup>5%</> for every <@cc.kw>1</> Operator with <@cc.vup>4</> or less Morale assigned to the Dorms"
+    },
+    "workshop_formula_dorm[001]": {
+      "buffId": "workshop_formula_dorm[001]",
+      "buffName": "Everyone Does Their Part",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_evolve_dorm2",
+      "sortId": 7552,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, increases the byproduct production rate by <@cc.vup>5%</> for every <@cc.kw>1</> Operator with <@cc.vup>20</> or less Morale assigned to the Dorms"
+    },
+    "workshop_formula_free[000]": {
+      "buffId": "workshop_formula_free[000]",
+      "buffName": "Careful Planning",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_free",
+      "sortId": 7501,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Elite materials</>, reduces the LMD cost."
+    },
     "workshop_formula_probability[200]": {
       "buffId": "workshop_formula_probability[200]",
       "buffName": "Engineering",
@@ -8547,7 +9134,7 @@
       "buffName": "Slice Iron, Split Steel",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_build3",
-      "sortId": 7404,
+      "sortId": 7421,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8559,7 +9146,7 @@
       "buffName": "Structural Mechanics",
       "buffIcon": "workshop",
       "skillIcon": "bskill_ws_build2",
-      "sortId": 7402,
+      "sortId": 7411,
       "buffColor": "#e3eb00",
       "textColor": "#333333",
       "buffCategory": "FUNCTION",
@@ -8602,12 +9189,48 @@
       "roomType": "WORKSHOP",
       "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Device</>-type materials, increases the byproduct production rate by <@cc.vup>90%</>"
     },
+    "workshop_formula_device[030]": {
+      "buffId": "workshop_formula_device[030]",
+      "buffName": "DIY Polyester",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_polyester",
+      "sortId": 7544,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Ester</>-type materials, increases the byproduct production rate by <@cc.vup>90%</>"
+    },
+    "workshop_formula_device[050]": {
+      "buffId": "workshop_formula_device[050]",
+      "buffName": "DIY Orirock",
+      "buffIcon": "workshop",
+      "skillIcon": "bskill_ws_orirock",
+      "sortId": 7546,
+      "buffColor": "#e3eb00",
+      "textColor": "#333333",
+      "buffCategory": "FUNCTION",
+      "roomType": "WORKSHOP",
+      "description": "When this Operator is assigned to the Workshop to process <@cc.kw>Orirock</>-type material, the production rate of byproduct increases by <@cc.vup>90%</>"
+    },
     "train_spd[000]": {
       "buffId": "train_spd[000]",
       "buffName": "Drillmaster",
       "buffIcon": "training",
       "skillIcon": "bskill_train_all",
       "sortId": 9001,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, Operators' Specialization training speed <@cc.vup>+25%</>"
+    },
+    "train_spd[0000]": {
+      "buffId": "train_spd[0000]",
+      "buffName": "Drillmaster",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_all",
+      "sortId": 9701,
       "buffColor": "#7d0022",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
@@ -8746,6 +9369,18 @@
       "roomType": "TRAINING",
       "description": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Caster</> Operators' Specialization training speed <@cc.vup>+30%</>"
     },
+    "train_spd&profession2[050]": {
+      "buffId": "train_spd&profession2[050]",
+      "buffName": "Caster Expert α",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_caster1",
+      "sortId": 9401,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Caster</> Operators' Specialization training speed <@cc.vup>+30%</>"
+    },
     "train_spd&profession[051]": {
       "buffId": "train_spd&profession[051]",
       "buffName": "Caster Expert β",
@@ -8830,6 +9465,18 @@
       "roomType": "TRAINING",
       "description": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Specialist</> Operators' Specialization training speed <@cc.vup>+50%</>"
     },
+    "train_spd&profession[120]": {
+      "buffId": "train_spd&profession[120]",
+      "buffName": "Bladework Memory",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train_guard3",
+      "sortId": 9721,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, <@cc.kw>Guard</> Operators' Specialization training speed <@cc.vup>+60%</>"
+    },
     "train_spd&profession[130]": {
       "buffId": "train_spd&profession[130]",
       "buffName": "Hannya",
@@ -8900,7 +9547,19 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "When this Operator is assigned to be the Trainer in the Training Room, increases the Specialization training speed of <@cc.kw>Caster</> Operators by <@cc.vup>+30%</>, and further increases this speed by <@cc.vup>+45%</> if training the skill to Specialization Rank <@cc.vup>1</>"
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, increases the Specialization training speed of <@cc.kw>Caster</> Operators by <@cc.vup>+30%</>, and further increases this speed by <@cc.vup>+45%</> if training the skill to Specialization Level <@cc.vup>1</>"
+    },
+    "train_spd&profession2[350]": {
+      "buffId": "train_spd&profession2[350]",
+      "buffName": "Widely-Read",
+      "buffIcon": "training",
+      "skillIcon": "bskill_train2_caster1",
+      "sortId": 9431,
+      "buffColor": "#7d0022",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "TRAINING",
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, increases the Specialization training speed of <@cc.kw>Caster</> Operators by <@cc.vup>+30%</>, and further increases this speed by <@cc.vup>+45%</> if training the skill to Specialization Level <@cc.vup>2</>"
     },
     "train_spd&profession2[320]": {
       "buffId": "train_spd&profession2[320]",
@@ -8948,7 +9607,7 @@
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "TRAINING",
-      "description": "When this Operator is assigned to be the Trainer in the Training Room, Morale consumed per hour is decreased by <@cc.vdown>+1</> when training a <@cc.kw>Sniper</> Operator’s skill to Specialization Level <@cc.vup>3</>"
+      "description": "When this Operator is assigned to be the Trainer in the Training Room, Morale consumed per hour is increased by <@cc.vdown>+1</> when training a <@cc.kw>Sniper</> Operator’s skill to Specialization Level <@cc.vup>3</>"
     },
     "dorm_rec_oneself[000]": {
       "buffId": "dorm_rec_oneself[000]",
@@ -9010,12 +9669,24 @@
       "roomType": "DORMITORY",
       "description": "When this Operator is assigned to a Dormitory, self Morale recovered <@cc.vup>+0.75</> per hour"
     },
+    "dorm_rec_oneself2[000]": {
+      "buffId": "dorm_rec_oneself2[000]",
+      "buffName": "Searching for Solitude",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_one",
+      "sortId": 5002,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "When this Operator is assigned to a Dormitory, increases own Morale restored per hour by <@cc.vup>+0.7</>; If there are other Operators in that Dormitory, further increases own Morale restored per hour by <@cc.vup>+0.05</> for each additional Operator."
+    },
     "dorm_rec_single[000]": {
       "buffId": "dorm_rec_single[000]",
       "buffName": "Medical Service",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single2",
-      "sortId": 5203,
+      "sortId": 5221,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9027,7 +9698,7 @@
       "buffName": "Convalescence",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single2",
-      "sortId": 5204,
+      "sortId": 5222,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9051,19 +9722,31 @@
       "buffName": "Mercy",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single4",
-      "sortId": 5206,
+      "sortId": 5241,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
       "roomType": "DORMITORY",
       "description": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.75</> Morale per hour to another Operator assigned to that Dormitory whose Morale is not full (Only the strongest effect of this type takes place)"
     },
+    "dorm_rec_single[030]": {
+      "buffId": "dorm_rec_single[030]",
+      "buffName": "Apocalypse",
+      "buffIcon": "dormitory",
+      "skillIcon": "bskill_dorm_single3",
+      "sortId": 5231,
+      "buffColor": "#21cdcb",
+      "textColor": "#ffffff",
+      "buffCategory": "RECOVERY",
+      "roomType": "DORMITORY",
+      "description": "When this Operator is assigned to a Dormitory, restores <@cc.vup>+0.7</> Morale per hour to another Operator assigned to that Dormitory whose Morale is not full (Only the strongest effect of this type takes place)"
+    },
     "dorm_rec_single_P[000]": {
       "buffId": "dorm_rec_single_P[000]",
       "buffName": "Make Tea",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single_schwarz",
-      "sortId": 5203,
+      "sortId": 5213,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9075,7 +9758,7 @@
       "buffName": "Barbecue Master",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_single_tomimi",
-      "sortId": 5202,
+      "sortId": 5212,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9099,7 +9782,7 @@
       "buffName": "Violin Solo",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5314,
+      "sortId": 5324,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9111,7 +9794,7 @@
       "buffName": "Idol",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5313,
+      "sortId": 5323,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9123,7 +9806,7 @@
       "buffName": "Nourish the Soul",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5312,
+      "sortId": 5322,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9135,7 +9818,7 @@
       "buffName": "Leader",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all2",
-      "sortId": 5311,
+      "sortId": 5321,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9147,7 +9830,7 @@
       "buffName": "General Z",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5321,
+      "sortId": 5331,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9159,7 +9842,7 @@
       "buffName": "Lady of the Lamp",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5322,
+      "sortId": 5332,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9171,7 +9854,7 @@
       "buffName": "Lionheart",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all3",
-      "sortId": 5323,
+      "sortId": 5333,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9315,7 +9998,7 @@
       "buffName": "Break Loose",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all1",
-      "sortId": 5302,
+      "sortId": 5311,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9327,7 +10010,7 @@
       "buffName": "Absolution",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all&one3",
-      "sortId": 5303,
+      "sortId": 5312,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9339,7 +10022,7 @@
       "buffName": "Madrigal",
       "buffIcon": "dormitory",
       "skillIcon": "bskill_dorm_all&one3",
-      "sortId": 5304,
+      "sortId": 5313,
       "buffColor": "#21cdcb",
       "textColor": "#ffffff",
       "buffCategory": "RECOVERY",
@@ -9447,12 +10130,36 @@
       "buffName": "Prestige",
       "buffIcon": "hire",
       "skillIcon": "bskill_hire_spd&ursus2",
-      "sortId": 8501,
+      "sortId": 8401,
       "buffColor": "#565656",
       "textColor": "#ffffff",
       "buffCategory": "FUNCTION",
       "roomType": "HIRE",
       "description": "When this Operator is assigned to the HR Office, increases HR contacting speed by <@cc.vup>+20%</>, and for every <@cc.vup>1</> contacts made, increases the likelihood of obtaining <@cc.kw>Ursus Student Self-Government Group</> clues (working time and recruitment slots improves the likelihood)"
+    },
+    "hire_spd_bd_n1_n1[000]": {
+      "buffId": "hire_spd_bd_n1_n1[000]",
+      "buffName": "Itinerant",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_bd_n1_n1",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "When this Operator is assigned to the HR Office, HR contacting speed <@cc.vup>+20%</>. Additionally, for every Recruit slot (does not count default slots), <@cc.rem>Memory Fragment</> <@cc.vup>+10</>"
+    },
+    "hire_spd_bd_n1[000]": {
+      "buffId": "hire_spd_bd_n1[000]",
+      "buffName": "Memory Seeker",
+      "buffIcon": "hire",
+      "skillIcon": "bskill_hire_spd_memento",
+      "sortId": 8051,
+      "buffColor": "#565656",
+      "textColor": "#ffffff",
+      "buffCategory": "FUNCTION",
+      "roomType": "HIRE",
+      "description": "When this Operator is assigned to the HR Office, every <@cc.vup>1</> point(s) of <@cc.rem>Memory Fragment</> is converted into <@cc.vup>1</> point(s) of <@cc.rem>Perception Information</>. When Morale is fully consumed, remove all points of <@cc.rem>Memory Fragment</> and <@cc.rem>Perception Information</>"
     },
     "meet_spd[000]": {
       "buffId": "meet_spd[000]",
@@ -18532,7 +19239,7 @@
         "height": 9,
         "comfort": 700,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A large bookshelf filled with various notices and posters. To correct peoples' misconceptions, some popular books were placed behind the signs.",
+        "description": "A large bookshelf filled with various notices and posters. To correct people's misconceptions, some popular books were placed behind the signs.",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 458,
@@ -18647,7 +19354,7 @@
         "height": 4,
         "comfort": 275,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A wooden table with the lamp left on. The diary entry isn't finished yet, and the table was wiped down again and again.",
+        "description": "A wooden table with the lamp left on. A diary entry is left unfinished, erase mark after erase mark visible on its page.'",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 180,
@@ -18808,7 +19515,7 @@
         "height": 3,
         "comfort": 90,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "An imitation of an expensive pendant lamp. To this day, Leto still hasn't figured out how to operate it.",
+        "description": "An imitation of an expensive pendant lamp. To this day, Leto still hasn't figured out why it will shake around.",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 73,
@@ -19107,7 +19814,7 @@
         "height": 4,
         "comfort": 520,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A four-poster bed unique to Leithania. Special incense can be placed on the corners during ceremonies, or just for aromatherapy.",
+        "description": "A four-poster bed unique to Leithania. Incense burners can be placed upon it during ceremonies, or just for aromatherapy.",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -19682,7 +20389,7 @@
         "height": 4,
         "comfort": 135,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A rainforest tribe-style clay pot. I have no clue how to work clay, and it makes me a bit ashamed of calling myself a local.",
+        "description": "A rainforest tribe-style clay pot. Those who can't work with clay have no right to call themselves a local.",
         "obtainApproach": "Event",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -19728,7 +20435,7 @@
         "height": 10,
         "comfort": 540,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A rainforest tribe-style speaker heater. It’s actually an oven for grilling food.",
+        "description": "A rainforest tribe-style heater. It’s actually an oven for grilling food.",
         "obtainApproach": "Purchased from the Limited Furniture Store",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -19944,9 +20651,1780 @@
         "canBeDestroy": false,
         "isOnly": 1
       },
+      "furni_midAutumn_screen_01": {
+        "id": "furni_midAutumn_screen_01",
+        "name": "Carved Wooden Partition",
+        "iconId": "furni_midAutumn_screen_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 2,
+        "height": 8,
+        "comfort": 375,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Wooden partitions imported from Yen. Blocks out the autumn wind, but receives all your guests with a warm welcome.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 278,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_cabinet_01": {
+        "id": "furni_midAutumn_cabinet_01",
+        "name": "Cubic Storage Chest",
+        "iconId": "furni_midAutumn_cabinet_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 6,
+        "comfort": 260,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A traditional chest imported from Yen with endless uses. Where could all the treasures be?",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 193,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_pottedplant_01": {
+        "id": "furni_midAutumn_pottedplant_01",
+        "name": "Potted Tree",
+        "iconId": "furni_midAutumn_pottedplant_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 5,
+        "comfort": 205,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A potted plant seemingly brought in from elsewhere. The plant is still budding and not suitable for outdoors.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 168,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_floorLamp_01": {
+        "id": "furni_midAutumn_floorLamp_01",
+        "name": "Tall Candlestand",
+        "iconId": "furni_midAutumn_floorLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 6,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A candlelight commonly found in Yen households. Bright and luminous, symbolizing a family's harmony.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 163,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_table_01": {
+        "id": "furni_midAutumn_table_01",
+        "name": "Low Height Table",
+        "iconId": "furni_midAutumn_table_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 4,
+        "height": 5,
+        "comfort": 510,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A long table with all kinds of festive delights laid out on top. Invite all your friends and family, and gather around the table as you enjoy the beauties of the seasons.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 375,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stool_01": {
+        "id": "furni_midAutumn_stool_01",
+        "name": "Round Wooden Stool",
+        "iconId": "furni_midAutumn_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 95,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A wooden stool found in all Yen households. With all the fine treats on the table, who wouldn't want to get seated and chow in right away?",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 80,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stove_01": {
+        "id": "furni_midAutumn_stove_01",
+        "name": "Originium Water Boiler",
+        "iconId": "furni_midAutumn_stove_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 135,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A water boiler that uses Originium as its heat source. Brings your water to a turbulent boil, and brews up a storm in your teacups.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_sofa_01": {
+        "id": "furni_midAutumn_sofa_01",
+        "name": "Modern Yen Chaise Lounge",
+        "iconId": "furni_midAutumn_sofa_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 4,
+        "height": 3,
+        "comfort": 415,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A traditional chaise lounge improved with western sensibilities. Why not take a quick nap before participating in the festivities again?",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 305,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_stool2_01": {
+        "id": "furni_midAutumn_stool2_01",
+        "name": "Extended Footstool",
+        "iconId": "furni_midAutumn_stool2_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 170,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A footstool for resting your feet. Raises your poems and songs to a whole new level along with your feet.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 155,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_carpet_01": {
+        "id": "furni_midAutumn_carpet_01",
+        "name": "Vermillion Carpet",
+        "iconId": "furni_midAutumn_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 10,
+        "height": 1,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A carpet commonly found in Yen househounds. Travel broadens yours horizons, but there is no better place to be than home when it comes time to celebrate.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 148,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_handLamp_01": {
+        "id": "furni_midAutumn_handLamp_01",
+        "name": "Basket Lantern",
+        "iconId": "furni_midAutumn_handLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A candle-lit lantern. Its shadow twitches to the candlelight's flicker, as another year has come and pass.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 110,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ornaments_01": {
+        "id": "furni_midAutumn_ornaments_01",
+        "name": "Framed Calligraphy",
+        "iconId": "furni_midAutumn_ornaments_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 5,
+        "comfort": 90,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A framed calligraphy artwork. Even a few strokes scrawled on the spur of the moment can be a display for the ages.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 83,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ceilingLight_01": {
+        "id": "furni_midAutumn_ceilingLight_01",
+        "name": "Red Silken Decorative Lamp",
+        "iconId": "furni_midAutumn_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 5,
+        "comfort": 210,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A red silken decorative hanging lamp. Its frabic hangs solemnly above the hall, swaying serenely as the breeze blows past.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 190,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_ceilingLamp_01": {
+        "id": "furni_midAutumn_ceilingLamp_01",
+        "name": "Pagoda Light",
+        "iconId": "furni_midAutumn_ceilingLamp_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 55,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A hanging light shaped like a pagoda. The view of these lamps alit can jubilate masses from far and wide.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 45,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_window_01": {
+        "id": "furni_midAutumn_window_01",
+        "name": "Panorama Display Panel (Moonlight)",
+        "iconId": "furni_midAutumn_window_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 10,
+        "comfort": 310,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A display panel showcasing the full moon. Stay after moonrise tonight, for the heavenly body is a sight to be marveled at.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 230,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_wallpaper_01": {
+        "id": "furni_midAutumn_wallpaper_01",
+        "name": "Yen Hall Wallpaper",
+        "iconId": "furni_midAutumn_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A style of wallpaper used during Yen festivities. Its vermillion patterns rejuvenates drab walls, as lanterns light up the moon up above.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 198,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_midAutumn_floor_01": {
+        "id": "furni_midAutumn_floor_01",
+        "name": "Yen Wooden Flooring",
+        "iconId": "furni_midAutumn_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Traditional wooden flooring used in Yen. Set foot on stable ground, and the confidence can carry you to new heights.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 198,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_fNearl_cabinet_H_01": {
+        "id": "furni_fNearl_cabinet_H_01",
+        "name": "Weapon Armoire",
+        "iconId": "furni_fNearl_cabinet_H_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 2,
+        "height": 9,
+        "comfort": 410,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An armoire containing the Nearls' battle armor, the family heirloom. The armor's current user is Maria.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_calendar_01": {
+        "id": "furni_fNearl_calendar_01",
+        "name": "Training Calendar",
+        "iconId": "furni_fNearl_calendar_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 2,
+        "comfort": 55,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A calendar for recording training results and competition dates. Several pages full of red checkmarks have been torn away.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofaStool_R_01": {
+        "id": "furni_fNearl_sofaStool_R_01",
+        "name": "Sofa Stool (Round)",
+        "iconId": "furni_fNearl_sofaStool_R_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 170,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A round, black sofa stool. When she's not standing atop the chessboard, the queen is but a meaningless carving.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofa_M_01": {
+        "id": "furni_fNearl_sofa_M_01",
+        "name": "Extended Sofa (White)",
+        "iconId": "furni_fNearl_sofa_M_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 3,
+        "comfort": 300,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A soft, milk-white sofa of extended length. Just the perfect size for an exhausted knight to lie down and get some rest.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofa_S_01": {
+        "id": "furni_fNearl_sofa_S_01",
+        "name": "Sofa for One (White)",
+        "iconId": "furni_fNearl_sofa_S_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 3,
+        "comfort": 170,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A sofa, milk-white sofa. Just the perfect size for a worrywart knight to sit down and relax their mind.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sofaStool_S_01": {
+        "id": "furni_fNearl_sofaStool_S_01",
+        "name": "Sofa Stool (Square)",
+        "iconId": "furni_fNearl_sofaStool_S_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 2,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A large, rectangular sofa with Zofia's cape flung on top. Though it came with a cushion, a certain knight has stubbornly been placing it on other sofas.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_coffeeTable_01": {
+        "id": "furni_fNearl_coffeeTable_01",
+        "name": "Simple Coffee Table",
+        "iconId": "furni_fNearl_coffeeTable_01",
+        "type": "TABLE",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 170,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A low coffee table with a glass top. You can't get checkmated if there isn't a king in the chess set. *Taps forehead*",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_potted_01": {
+        "id": "furni_fNearl_potted_01",
+        "name": "Sunflower Pot",
+        "iconId": "furni_fNearl_potted_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A pot of sunflowers purchased at the florist. Judging by how it's started to wither, that was also the last time anyone has taken care of the flowers.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_carpet_01": {
+        "id": "furni_fNearl_carpet_01",
+        "name": "Plush Carpet (White)",
+        "iconId": "furni_fNearl_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 10,
+        "height": 1,
+        "comfort": 185,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A plush carpet that looks brand new, which either means it was recently given a deep clean, or it's actually brand new.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_wallDecor_01": {
+        "id": "furni_fNearl_wallDecor_01",
+        "name": "Sanctified Kuranta Statue",
+        "iconId": "furni_fNearl_banner_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 1,
+        "height": 10,
+        "comfort": 270,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An art piece from the old mansion. Mounted on the wall, just like before. \"Fear neither hardship nor darkness\".",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_banner_01": {
+        "id": "furni_fNearl_banner_01",
+        "name": "Decorative Banner",
+        "iconId": "furni_fNearl_banner2_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 4,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A banner for decorating the statue. \"Darkness shan't overshadow light\".",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2
+      },
+      "furni_fNearl_shelf_01": {
+        "id": "furni_fNearl_shelf_01",
+        "name": "Marble Table",
+        "iconId": "furni_fNearl_shelf_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 2,
+        "height": 5,
+        "comfort": 355,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A table with an assortment of odds and ends on top: things that haven't been mailed, haven't been read, or haven't been completed.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_branchDecor_01": {
+        "id": "furni_fNearl_branchDecor_01",
+        "name": "\"Ashen White Twig Tree\"",
+        "iconId": "furni_fNearl_branchDecor_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 7,
+        "comfort": 165,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A twig tree used as decoration. The best parts of the tree were used to make carbines, and the knights took home the leftovers to decorate the place.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_cabinet_L_01": {
+        "id": "furni_fNearl_cabinet_L_01",
+        "name": "Classic Showcase",
+        "iconId": "furni_fNearl_cabinet_L_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 5,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A showcase displaying all sorts of honors and trophies. A certain training maniac seems to have forgotten to put their shield back.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_sink_01": {
+        "id": "furni_fNearl_sink_01",
+        "name": "Wash Basin",
+        "iconId": "furni_fNearl_sink_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 4,
+        "comfort": 210,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An expensive wash basin placed next to the door. Knights are to wash their hands after returning from duty, and it's often used to wash up, both hands and faces.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_wateringCan_01": {
+        "id": "furni_fNearl_wateringCan_01",
+        "name": "Watering Can",
+        "iconId": "furni_fNearl_wateringCan_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 2,
+        "comfort": 120,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A watering can with a narrow spout used to water indoor plants. It's so seldom used that you could probably plant something inside.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_ceilingLight_01": {
+        "id": "furni_fNearl_ceilingLight_01",
+        "name": "Jade Ceiling Light (Large)",
+        "iconId": "furni_fNearl_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 3,
+        "height": 3,
+        "comfort": 150,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A large jade ceiling light with multiple lamps. Cheap and affordable. Casts lots of shadows on wherever it illuminates.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_ceilingLight2_01": {
+        "id": "furni_fNearl_ceilingLight2_01",
+        "name": "Jade Ceiling Lamp (Small)",
+        "iconId": "furni_fNearl_ceilingLight2_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 2,
+        "comfort": 85,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A small jade ceiling light. Cheap and affordable. Never lights up a place enough.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 2
+      },
+      "furni_fNearl_wallpaper_01": {
+        "id": "furni_fNearl_wallpaper_01",
+        "name": "Knightly Noble Wallpaper",
+        "iconId": "furni_fNearl_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Wallpaper commonly used by knights and nobility. Instead of a room that could be described as knightly, Maria would rather have her own workshop.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_fNearl_floor_01": {
+        "id": "furni_fNearl_floor_01",
+        "name": "Knightly Noble Floor Tiles",
+        "iconId": "furni_fNearl_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Floor tiles commonly used by knights and nobility. Zofia doesn't mull over the details, and just lets her designers do their job unattended.",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_activity_ceiling_01": {
+        "id": "furni_activity_ceiling_01",
+        "name": "Hanging Wooden Pallet",
+        "iconId": "furni_activity_ceiling_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 20,
+        "depth": 4,
+        "height": 1,
+        "comfort": 230,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A handmade decorative pallet hung on the ceiling with lights installed. Don't jump on top of it, don't hang yourself upside down from it, and definitely don't fall asleep while doing that!",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 163,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_hangingChair_01": {
+        "id": "furni_activity_hangingChair_01",
+        "name": "Swingy Sofa",
+        "iconId": "furni_activity_hangingChair_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 5,
+        "height": 10,
+        "comfort": 235,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An extra comfy hammock sofa. Can be used as a bed. Suzuran can sometimes be seen lounging on the sofa with her tails stretched.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 165,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_fence_V_01": {
+        "id": "furni_activity_fence_V_01",
+        "name": "Wooden Stakes (Vertical)",
+        "iconId": "furni_activity_fence_V_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 1,
+        "depth": 4,
+        "height": 10,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of wooden stakes installed vertically. Kids frequently get their hands stuck between the gaps.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_column_01": {
+        "id": "furni_activity_column_01",
+        "name": "Palisade Pillar",
+        "iconId": "furni_activity_column_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 10,
+        "comfort": 185,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A pillar used with the stakes. Very sturdy. Not even Popukar can break it... probably.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 160,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_fence_S_01": {
+        "id": "furni_activity_fence_S_01",
+        "name": "Wooden Stakes (Horizontal)",
+        "iconId": "furni_activity_fence_S_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 1,
+        "height": 10,
+        "comfort": 175,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of wooden stakes installed horizontally. Kids like to grind their nails with it.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 150,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_rod_01": {
+        "id": "furni_activity_rod_01",
+        "name": "Wooden Hanging Rod",
+        "iconId": "furni_activity_rod_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 2,
+        "comfort": 95,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A rod used to decorate the playroom. The rod was installed by renovation operators, while the rope and the flags were added by the young operators.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 83,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_carpet_01": {
+        "id": "furni_activity_carpet_01",
+        "name": "Puzzle Carpet",
+        "iconId": "furni_activity_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 14,
+        "depth": 8,
+        "height": 1,
+        "comfort": 140,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A carpet woven by the kid operators with the help of a weaver. You could probably make a felt cloth about the size of a cup with all that fur (or perhaps hair) that gets vacuumed out each day.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 120,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_showcase_01": {
+        "id": "furni_activity_showcase_01",
+        "name": "Water-filled Showcase",
+        "iconId": "furni_activity_showcase_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 6,
+        "comfort": 175,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A wall-mounted showcase simulating an underwater environment. This is how a lot of our little buddies learn about life underwater.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_cabinet_01": {
+        "id": "furni_activity_cabinet_01",
+        "name": "Toy Cabinet",
+        "iconId": "furni_activity_cabinet_01",
+        "type": "CABINET",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 2,
+        "height": 4,
+        "comfort": 175,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A modified sliding door kitchen cabinet. This is where our little buddies store their favorite toys.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 123,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_potted_01": {
+        "id": "furni_activity_potted_01",
+        "name": "Leafy Green Plant",
+        "iconId": "furni_activity_potted_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 6,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A fast-growing potted plant. Doesn't seem to have been overwatered. If Bubble is in the room, be sure to keep her away from the plant!",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_refrigerator_01": {
+        "id": "furni_activity_refrigerator_01",
+        "name": "Big Tumbly Fridge",
+        "iconId": "furni_activity_refrigerator_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 4,
+        "height": 6,
+        "comfort": 270,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A washing machine modified into a refrigerator. The fridge has been filled up with snacks. Having lots of candy and desserts is good for both your body and mind. All the little ones know that.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 190,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_downlight_01": {
+        "id": "furni_activity_downlight_01",
+        "name": "Rectangular Brass Ceiling Light",
+        "iconId": "furni_activity_downlight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 12,
+        "depth": 3,
+        "height": 1,
+        "comfort": 160,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A rectangular brass ceiling light, bathing the room in light all while warmly overwatching the children during their playtime.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 138,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_stool_01": {
+        "id": "furni_activity_stool_01",
+        "name": "Little Yellow Stool",
+        "iconId": "furni_activity_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 90,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "The youngsters' favorite round little stool. For safety reasons, the seat is not rotatable.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 70,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_artSet_01": {
+        "id": "furni_activity_artSet_01",
+        "name": "Watercolor Painting Set",
+        "iconId": "furni_activity_artSet_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 4,
+        "height": 4,
+        "comfort": 195,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of watercolors for children. Everyone who has taken a painting class knows that you'd get kicked out by the art teacher if you dared to put paper underneath the easel. Thankfully, this is just a toy set.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 138,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_calendar_01": {
+        "id": "furni_activity_calendar_01",
+        "name": "Funtimes Calendar",
+        "iconId": "furni_activity_calendar_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 1,
+        "height": 3,
+        "comfort": 60,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A calendar that marks all the game room activities. As the young operators look forward to each coming day, they are also growing day by day.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 53,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_tent_01": {
+        "id": "furni_activity_tent_01",
+        "name": "Happy Breaktime Tent",
+        "iconId": "furni_activity_tent_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 7,
+        "depth": 4,
+        "height": 7,
+        "comfort": 370,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A comfy little tent. Big enough for a little operator to fall asleep inside.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 260,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_handLamp_01": {
+        "id": "furni_activity_handLamp_01",
+        "name": "Bamboo Originium Lantern",
+        "iconId": "furni_activity_handLamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 105,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An Originium lamp placed inside a bamboo basket. Very safe. There is actually a glass shield inside the lantern, keeping the more curious kids from hurting themselves.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 90,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_lowPartition_01": {
+        "id": "furni_activity_lowPartition_01",
+        "name": "Stubby Low Wall",
+        "iconId": "furni_activity_lowPartition_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 2,
+        "height": 5,
+        "comfort": 180,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A low wall made specifically based on how tall the young operators are. There is a can of ball-shaped candy on the wall. Don't eat too many of them at once.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 140,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_halfColumn_01": {
+        "id": "furni_activity_halfColumn_01",
+        "name": "Low Wall Pillar",
+        "iconId": "furni_activity_halfColumn_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 1,
+        "depth": 2,
+        "height": 10,
+        "comfort": 140,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A pillar that goes with the low wall. It really puts your mind at ease knowing that you're enveloped.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 120,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_wallpaper_01": {
+        "id": "furni_activity_wallpaper_01",
+        "name": "Cartoon Wallpaper",
+        "iconId": "furni_activity_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A wallpaper designed by the children themselves. They had never been happier, seeing their own doodles turn into reality. On the wall, at least.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 188,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_activity_floor_01": {
+        "id": "furni_activity_floor_01",
+        "name": "Sparkling Clean Flooring",
+        "iconId": "furni_activity_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Floorboards that the kids helped install. It's so much fun to do your part putting the room together while learning about responsibility.",
+        "obtainApproach": "Purchased from the Limited Furniture Store",
+        "processedProductId": "3401",
+        "processedProductCount": 188,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_bed_01": {
+        "id": "furni_kitchen_bed_01",
+        "name": "Simple Bed",
+        "iconId": "furni_kitchen_bed_01",
+        "type": "BEDDING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 8,
+        "depth": 4,
+        "height": 3,
+        "comfort": 350,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "An undecorated bed. Simple and clean.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_framed_01": {
+        "id": "furni_kitchen_framed_01",
+        "name": "Photoless Frames",
+        "iconId": "furni_kitchen_framed_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 3,
+        "comfort": 95,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of photo frames of different sizes. Let your imaginations run wild.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_airPurifier_01": {
+        "id": "furni_kitchen_airPurifier_01",
+        "name": "Air Purifier",
+        "iconId": "furni_kitchen_airPurifier_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 140,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A must-have machine for maintaining the room's air quality. Like a breath of fresh air.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_partition_01": {
+        "id": "furni_kitchen_partition_01",
+        "name": "Area Separation Decoration",
+        "iconId": "furni_kitchen_partition_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 2,
+        "height": 9,
+        "comfort": 210,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A designer decoration used to partition an open space. Like a clean cut.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceilingLight_01": {
+        "id": "furni_kitchen_ceilingLight_01",
+        "name": "Round Decorative Lighting",
+        "iconId": "furni_kitchen_ceilingLight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 1,
+        "height": 2,
+        "comfort": 45,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A small decorative light source that helps enhance the room's appearance. A bright idea.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallSticker_01": {
+        "id": "furni_kitchen_wallSticker_01",
+        "name": "Rock Wallpaper",
+        "iconId": "furni_kitchen_wallSticker_01",
+        "type": "WALLDECO",
+        "location": "POSTER",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 10,
+        "depth": 1,
+        "height": 10,
+        "comfort": 50,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of black stone peels made using the highest quality materia. Naturally hard as a rock yet mismatched. ",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_carpet_01": {
+        "id": "furni_kitchen_carpet_01",
+        "name": "Thin Rug",
+        "iconId": "furni_kitchen_carpet_01",
+        "type": "CARPET",
+        "location": "CARPET",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 13,
+        "depth": 10,
+        "height": 1,
+        "comfort": 170,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A rug added out of practicality. Snug as a bug in a rug.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_downlight_01": {
+        "id": "furni_kitchen_downlight_01",
+        "name": "Ceiling Panel Lighting",
+        "iconId": "furni_kitchen_downlight_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 3,
+        "height": 1,
+        "comfort": 125,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A large light panel that illuminates the whole room. Fluorescent and lustrous.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceiling_01": {
+        "id": "furni_kitchen_ceiling_01",
+        "name": "Ceiling Light Fixture",
+        "iconId": "furni_kitchen_ceiling_01",
+        "type": "CEILING",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 16,
+        "depth": 2,
+        "height": 2,
+        "comfort": 195,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A suspended light fixture that brightens up the area underneath. This unique light is bound to not leave you hanging.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_lamp_01": {
+        "id": "furni_kitchen_lamp_01",
+        "name": "Tripod Lamp",
+        "iconId": "furni_kitchen_lamp_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 4,
+        "comfort": 155,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A tripod floor lamp that adds a warm glow to your decor, yet can stand on its own.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallArt_01": {
+        "id": "furni_kitchen_wallArt_01",
+        "name": "Modern Artpiece",
+        "iconId": "furni_kitchen_wallArt_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 6,
+        "depth": 1,
+        "height": 7,
+        "comfort": 175,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A wall art that will only be understood by its creator. It's art for art's sake.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_ceilingLamps_01": {
+        "id": "furni_kitchen_ceilingLamps_01",
+        "name": "Hanging Lights",
+        "iconId": "furni_kitchen_ceilingLamps_01",
+        "type": "CEILINGLAMP",
+        "location": "CEILING",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 5,
+        "depth": 3,
+        "height": 4,
+        "comfort": 145,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A set of ceiling lights arranged specifically for the perfect balance, all in harmony with one another.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_worktop_01": {
+        "id": "furni_kitchen_worktop_01",
+        "name": "Embedded Kitchen Unit",
+        "iconId": "furni_kitchen_worktop_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 9,
+        "depth": 1,
+        "height": 4,
+        "comfort": 160,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A complete kitchen unit built into the wall. Perfect for cooking and include everything but the kitchen sink. ",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_islandWorktop_01": {
+        "id": "furni_kitchen_islandWorktop_01",
+        "name": "Multipurpose Counter Space",
+        "iconId": "furni_kitchen_islandWorktop_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 12,
+        "depth": 2,
+        "height": 5,
+        "comfort": 405,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A counter space designed for many different purposes. The possibilities are endless.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_oven_01": {
+        "id": "furni_kitchen_oven_01",
+        "name": "Upright Kitchen Set",
+        "iconId": "furni_kitchen_oven_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 2,
+        "height": 10,
+        "comfort": 265,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A vertical kitchen set with built-in storage. Keeps your kitchen in apple-pie order.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_stool_01": {
+        "id": "furni_kitchen_stool_01",
+        "name": "Simple Kitchen Stool",
+        "iconId": "furni_kitchen_stool_01",
+        "type": "SEATING",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 2,
+        "depth": 2,
+        "height": 3,
+        "comfort": 100,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A stool made using the minimum amount of materials. Practical and understated, just the bare necessities.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_pottedPlant_01": {
+        "id": "furni_kitchen_pottedPlant_01",
+        "name": "Tall Potted Plant",
+        "iconId": "furni_kitchen_pottedPlant_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 3,
+        "depth": 3,
+        "height": 5,
+        "comfort": 190,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A unique, different, yet indispensable potted plant. Adds a touch of nature.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_wallpaper_01": {
+        "id": "furni_kitchen_wallpaper_01",
+        "name": "Minimalist Wallpaper",
+        "iconId": "furni_kitchen_wallpaper_01",
+        "type": "WALLPAPER",
+        "location": "WALL",
+        "category": "WALL",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 1,
+        "height": 10,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A minimalistic wallpaper design. Its uniform design helps you see what sticks on the wall.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
+      "furni_kitchen_floor_01": {
+        "id": "furni_kitchen_floor_01",
+        "name": "Minimalist Flooring",
+        "iconId": "furni_kitchen_floor_01",
+        "type": "FLOOR",
+        "location": "FLOOR",
+        "category": "FLOOR",
+        "rarity": 2,
+        "themeId": "",
+        "width": 34,
+        "depth": 10,
+        "height": 1,
+        "comfort": 240,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "A minimally-processed flooring design. Helps you break new ground.",
+        "obtainApproach": "Dropped from some stages",
+        "processedProductId": "3401",
+        "processedProductCount": 5,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": true,
+        "isOnly": -1
+      },
       "furni_MA2020_rabbit_01": {
         "id": "furni_MA2020_rabbit_01",
-        "name": "Bunny Pestle and Mortar",
+        "name": "Futuristic Kitty Bank",
         "iconId": "furni_MA2020_rabbit_01",
         "type": "DECORATION",
         "location": "FLOOR",
@@ -20004,7 +22482,7 @@
         "height": 3,
         "comfort": 180,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A bean bag sofa in the shape of a traditional Yan delicacy. Has been used on multiple occasions by high-profile visitors from Yan.",
+        "description": "A bean bag sofa in the shape of a traditional Yen delicacy. Is often frequented by a certain high-profile visitor from Yen who refuses to separate from it.",
         "obtainApproach": "Event",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -20119,7 +22597,7 @@
         "height": 4,
         "comfort": 65,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A miscellaneous assortment of things hanging on the wall, ranging from cocks to portraits to porcelain plates. Can stagnation, conflagration, shattering, and destruction become the best of memories?",
+        "description": "A miscellaneous assortment of things hanging on the wall, ranging from clocks to portraits to porcelain plates. Can stagnation, conflagration, shattering, and destruction become the best of memories?",
         "obtainApproach": "Event",
         "processedProductId": "3401",
         "processedProductCount": 0,
@@ -20374,6 +22852,29 @@
         "usage": "Can be used to decorate the dorm and improve the ambience.",
         "description": "An ordinary apron purchased from the supermarket, suitable for doing various chores around the ship. Operators with horns might have some trouble putting it on.",
         "obtainApproach": "Afternoon Stories milestone reward",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_act14d0_arcadegame_01": {
+        "id": "furni_act14d0_arcadegame_01",
+        "name": "Fan Appreciation Slot Machine",
+        "iconId": "furni_act14d0_arcadegame_01",
+        "type": "DECORATION",
+        "location": "FLOOR",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 3,
+        "height": 5,
+        "comfort": 140,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "Closure's favorite brand new gaming machine. No coins needed. Just hit start and enjoy the game.",
+        "obtainApproach": "Event",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -21278,6 +23779,75 @@
         "canBeDestroy": false,
         "isOnly": 1
       },
+      "furni_dropS009_faust_01": {
+        "id": "furni_dropS009_faust_01",
+        "name": "Plaque - Faust",
+        "iconId": "furni_dropS009_faust_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "\"Look, even the devil writhes after partaking of your soul. He is just like you, with no sweetness following the bitterness.\"",
+        "obtainApproach": "Dropped from the first clear reward of Challenge Mode M8-8",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_laBoheme_01": {
+        "id": "furni_dropS009_laBoheme_01",
+        "name": "Plaque - True Love",
+        "iconId": "furni_dropS009_laBoheme_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "\"You've only met each other a few times. How can there be any eternal love?\" \"History will know that my love for her was long enough.\"",
+        "obtainApproach": "Event",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_siegfried_01": {
+        "id": "furni_dropS009_siegfried_01",
+        "name": "Plaque - Butcher",
+        "iconId": "furni_dropS009_siegfried_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "\"Chapter after chapter, the hero's cause is composed in red. When he swung his sword to sever the last bit of evil, his paean came to an abrupt end.\"",
+        "obtainApproach": "Dropped from the first clear reward of H8-4",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
       "furni_dropS009_magicFlute_01": {
         "id": "furni_dropS009_magicFlute_01",
         "name": "Plaque - Day and Night",
@@ -21294,6 +23864,29 @@
         "usage": "Can be used to decorate the dorm and improve the ambience.",
         "description": "\"Everything in the world changes, like day and night turning on an axis. The balance of the cosmos has been skewed, so where will your weight fall?\"",
         "obtainApproach": "Dropped from the first clear reward of Challenge Mode SV-7",
+        "processedProductId": "3401",
+        "processedProductCount": 0,
+        "processedByProductPercentage": 0,
+        "processedByProductGroup": [],
+        "canBeDestroy": false,
+        "isOnly": 1
+      },
+      "furni_dropS009_etudeOp10No12_01": {
+        "id": "furni_dropS009_etudeOp10No12_01",
+        "name": "Plaque - Resistance",
+        "iconId": "furni_dropS009_etudeOp10No12_01",
+        "type": "WALLDECO",
+        "location": "WALL",
+        "category": "FURNITURE",
+        "rarity": 2,
+        "themeId": "",
+        "width": 4,
+        "depth": 1,
+        "height": 2,
+        "comfort": 75,
+        "usage": "Can be used to decorate the dorm and improve the ambience.",
+        "description": "\"I have gathered my comrades to sing songs of praise for everyone. But what can you gain from this sad act of aggression? The land of Kazimierz shall never belong to you.\"",
+        "obtainApproach": "Event",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -21545,8 +24138,8 @@
         "height": 4,
         "comfort": 140,
         "usage": "Can be used to decorate the dorm and improve the ambience.",
-        "description": "A bat rack of the Ursus Student Self-Governing Group. Occasionally they will get together to play baseball.",
-        "obtainApproach": "Ursus Student Self-Governing Group Trust collection",
+        "description": "A bat rack of the Ursus Student Self-Government Group. Occasionally they will get together to play baseball.",
+        "obtainApproach": "Ursus Student Self-Government Group Trust collection",
         "processedProductId": "3401",
         "processedProductCount": 0,
         "processedByProductPercentage": 0,
@@ -25120,6 +27713,464 @@
             "pos1": 0
           }
         ]
+      },
+      "furni_set_midAutumn": {
+        "id": "furni_set_midAutumn",
+        "name": "Yen Reception Hall",
+        "desc": "A room that imitates the atmosphere of traditional Yen holidays. The moon rises; let the festivities begin.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_midAutumn_screen_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_midAutumn_cabinet_01",
+            "pos0": 5,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_pottedplant_01",
+            "pos0": 2,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_floorLamp_01",
+            "pos0": 0,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_table_01",
+            "pos0": 12,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool_01",
+            "pos0": 13,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool_01",
+            "pos0": 15,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_stove_01",
+            "pos0": 20,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_sofa_01",
+            "pos0": 24,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_stool2_01",
+            "pos0": 24,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_midAutumn_carpet_01",
+            "pos0": 20,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_handLamp_01",
+            "pos0": 32,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ornaments_01",
+            "pos0": 31,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLight_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 4,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 8,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 24,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_ceilingLamp_01",
+            "pos0": 28,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_midAutumn_window_01",
+            "pos0": 12,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_midAutumn_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_fNearl": {
+        "id": "furni_set_fNearl",
+        "name": "Nearls' Living Room Replica",
+        "desc": "A living room reproduction financed by Zofia and constructed by Maria. It's quite different compared to the one before.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_fNearl_cabinet_H_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_calendar_01",
+            "pos0": 8,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_fNearl_sofaStool_R_01",
+            "pos0": 0,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_sofa_M_01",
+            "pos0": 9,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_fNearl_sofa_S_01",
+            "pos0": 9,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_fNearl_sofaStool_S_01",
+            "pos0": 18,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_coffeeTable_01",
+            "pos0": 13,
+            "pos1": 7
+          },
+          {
+            "furnitureId": "furni_fNearl_potted_01",
+            "pos0": 20,
+            "pos1": 7
+          },
+          {
+            "furnitureId": "furni_fNearl_carpet_01",
+            "pos0": 8,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_wallDecor_01",
+            "pos0": 13,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_banner_01",
+            "pos0": 11,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_fNearl_banner_01",
+            "pos0": 21,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_fNearl_shelf_01",
+            "pos0": 12,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_fNearl_branchDecor_01",
+            "pos0": 25,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_cabinet_L_01",
+            "pos0": 27,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_sink_01",
+            "pos0": 30,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_wateringCan_01",
+            "pos0": 28,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight_01",
+            "pos0": 13,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight2_01",
+            "pos0": 4,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_ceilingLight2_01",
+            "pos0": 26,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_fNearl_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_fNearl_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_activity": {
+        "id": "furni_set_activity",
+        "name": "Golden Game Room",
+        "desc": "A room just for the kids to play in. Hope they have a good time.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_activity_ceiling_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_hangingChair_01",
+            "pos0": 2,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_fence_V_01",
+            "pos0": 21,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_column_01",
+            "pos0": 21,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_fence_S_01",
+            "pos0": 23,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_rod_01",
+            "pos0": 23,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_activity_carpet_01",
+            "pos0": 1,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_activity_showcase_01",
+            "pos0": 1,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_activity_cabinet_01",
+            "pos0": 6,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_activity_potted_01",
+            "pos0": 21,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_refrigerator_01",
+            "pos0": 16,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_downlight_01",
+            "pos0": 22,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_stool_01",
+            "pos0": 28,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_stool_01",
+            "pos0": 30,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_activity_artSet_01",
+            "pos0": 9,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_calendar_01",
+            "pos0": 13,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_activity_tent_01",
+            "pos0": 26,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_handLamp_01",
+            "pos0": 23,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_activity_lowPartition_01",
+            "pos0": 28,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_halfColumn_01",
+            "pos0": 33,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_activity_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_activity_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
+      },
+      "furni_set_kitchen": {
+        "id": "furni_set_kitchen",
+        "name": "White Horizons",
+        "desc": "A concept room based on an award-winning design. When asked for comment, the winner had nothing to say at all. The design speaks for itself.",
+        "quickSetup": [
+          {
+            "furnitureId": "furni_kitchen_bed_01",
+            "pos0": 0,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_framed_01",
+            "pos0": 2,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_airPurifier_01",
+            "pos0": 6,
+            "pos1": 5
+          },
+          {
+            "furnitureId": "furni_kitchen_partition_01",
+            "pos0": 9,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_ceilingLight_01",
+            "pos0": 6,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_wallSticker_01",
+            "pos0": 1,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_carpet_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_downlight_01",
+            "pos0": 14,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_ceiling_01",
+            "pos0": 14,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_lamp_01",
+            "pos0": 16,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_wallArt_01",
+            "pos0": 15,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_ceilingLamps_01",
+            "pos0": 21,
+            "pos1": 3
+          },
+          {
+            "furnitureId": "furni_kitchen_worktop_01",
+            "pos0": 21,
+            "pos1": 2
+          },
+          {
+            "furnitureId": "furni_kitchen_islandWorktop_01",
+            "pos0": 18,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_oven_01",
+            "pos0": 30,
+            "pos1": 4
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 19,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 22,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_stool_01",
+            "pos0": 28,
+            "pos1": 1
+          },
+          {
+            "furnitureId": "furni_kitchen_pottedPlant_01",
+            "pos0": 28,
+            "pos1": 6
+          },
+          {
+            "furnitureId": "furni_kitchen_wallpaper_01",
+            "pos0": 0,
+            "pos1": 0
+          },
+          {
+            "furnitureId": "furni_kitchen_floor_01",
+            "pos0": 0,
+            "pos1": 0
+          }
+        ]
       }
     },
     "groups": {
@@ -26427,7 +29478,7 @@
       },
       "furni_set_nightView_2": {
         "id": "furni_set_nightView_2",
-        "name": "The Pleasure of Relaxation",
+        "name": "The Love for Learning",
         "themeId": "furni_set_nightView",
         "comfort": 200,
         "count": 4,
@@ -26440,7 +29491,7 @@
       },
       "furni_set_nightView_3": {
         "id": "furni_set_nightView_3",
-        "name": "The Love for Learning",
+        "name": "The Pleasure of Relaxation",
         "themeId": "furni_set_nightView",
         "comfort": 350,
         "count": 5,
@@ -26565,6 +29616,236 @@
           "furni_bolivar_floor_01",
           "furni_bolivar_column_01",
           "furni_bolivar_wall_01"
+        ]
+      },
+      "furni_set_midAutumn_1": {
+        "id": "furni_set_midAutumn_1",
+        "name": "Dining Under the Moonlight",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 285,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_window_01",
+          "furni_midAutumn_table_01",
+          "furni_midAutumn_stool_01",
+          "furni_midAutumn_stove_01"
+        ]
+      },
+      "furni_set_midAutumn_2": {
+        "id": "furni_set_midAutumn_2",
+        "name": "Seated Conversations",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 225,
+        "count": 5,
+        "furniture": [
+          "furni_midAutumn_sofa_01",
+          "furni_midAutumn_stool2_01",
+          "furni_midAutumn_handLamp_01",
+          "furni_midAutumn_ornaments_01",
+          "furni_midAutumn_carpet_01"
+        ]
+      },
+      "furni_set_midAutumn_3": {
+        "id": "furni_set_midAutumn_3",
+        "name": "Contemporary Furnishings",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 250,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_screen_01",
+          "furni_midAutumn_floorLamp_01",
+          "furni_midAutumn_cabinet_01",
+          "furni_midAutumn_pottedplant_01"
+        ]
+      },
+      "furni_set_midAutumn_4": {
+        "id": "furni_set_midAutumn_4",
+        "name": "Festive Fixtures",
+        "themeId": "furni_set_midAutumn",
+        "comfort": 190,
+        "count": 4,
+        "furniture": [
+          "furni_midAutumn_wallpaper_01",
+          "furni_midAutumn_floor_01",
+          "furni_midAutumn_ceilingLight_01",
+          "furni_midAutumn_ceilingLamp_01"
+        ]
+      },
+      "furni_set_fNearl_1": {
+        "id": "furni_set_fNearl_1",
+        "name": "Living Room Aesthetics",
+        "themeId": "furni_set_fNearl",
+        "comfort": 190,
+        "count": 3,
+        "furniture": [
+          "furni_fNearl_wallDecor_01",
+          "furni_fNearl_shelf_01",
+          "furni_fNearl_banner_01"
+        ]
+      },
+      "furni_set_fNearl_2": {
+        "id": "furni_set_fNearl_2",
+        "name": "Living Room Resting Area",
+        "themeId": "furni_set_fNearl",
+        "comfort": 250,
+        "count": 6,
+        "furniture": [
+          "furni_fNearl_sofa_M_01",
+          "furni_fNearl_sofa_S_01",
+          "furni_fNearl_coffeeTable_01",
+          "furni_fNearl_sofaStool_S_01",
+          "furni_fNearl_potted_01",
+          "furni_fNearl_carpet_01"
+        ]
+      },
+      "furni_set_fNearl_3": {
+        "id": "furni_set_fNearl_3",
+        "name": "Embodiments of Knighthood",
+        "themeId": "furni_set_fNearl",
+        "comfort": 155,
+        "count": 3,
+        "furniture": [
+          "furni_fNearl_cabinet_H_01",
+          "furni_fNearl_sofaStool_R_01",
+          "furni_fNearl_calendar_01"
+        ]
+      },
+      "furni_set_fNearl_4": {
+        "id": "furni_set_fNearl_4",
+        "name": "Living Room Leisure Zone",
+        "themeId": "furni_set_fNearl",
+        "comfort": 175,
+        "count": 4,
+        "furniture": [
+          "furni_fNearl_branchDecor_01",
+          "furni_fNearl_cabinet_L_01",
+          "furni_fNearl_sink_01",
+          "furni_fNearl_wateringCan_01"
+        ]
+      },
+      "furni_set_fNearl_5": {
+        "id": "furni_set_fNearl_5",
+        "name": "Knightly Interiors",
+        "themeId": "furni_set_fNearl",
+        "comfort": 160,
+        "count": 4,
+        "furniture": [
+          "furni_fNearl_wallpaper_01",
+          "furni_fNearl_floor_01",
+          "furni_fNearl_ceilingLight_01",
+          "furni_fNearl_ceilingLight2_01"
+        ]
+      },
+      "furni_set_activity_1": {
+        "id": "furni_set_activity_1",
+        "name": "Little Operators' Playthings",
+        "themeId": "furni_set_activity",
+        "comfort": 230,
+        "count": 5,
+        "furniture": [
+          "furni_activity_hangingChair_01",
+          "furni_activity_artSet_01",
+          "furni_activity_cabinet_01",
+          "furni_activity_showcase_01",
+          "furni_activity_carpet_01"
+        ]
+      },
+      "furni_set_activity_2": {
+        "id": "furni_set_activity_2",
+        "name": "Little Operators' Favorites",
+        "themeId": "furni_set_activity",
+        "comfort": 285,
+        "count": 6,
+        "furniture": [
+          "furni_activity_tent_01",
+          "furni_activity_handLamp_01",
+          "furni_activity_refrigerator_01",
+          "furni_activity_calendar_01",
+          "furni_activity_potted_01",
+          "furni_activity_stool_01"
+        ]
+      },
+      "furni_set_activity_3": {
+        "id": "furni_set_activity_3",
+        "name": "Playroom Partitions",
+        "themeId": "furni_set_activity",
+        "comfort": 190,
+        "count": 5,
+        "furniture": [
+          "furni_activity_fence_S_01",
+          "furni_activity_fence_V_01",
+          "furni_activity_column_01",
+          "furni_activity_lowPartition_01",
+          "furni_activity_halfColumn_01"
+        ]
+      },
+      "furni_set_activity_4": {
+        "id": "furni_set_activity_4",
+        "name": "Playroom Decorations",
+        "themeId": "furni_set_activity",
+        "comfort": 185,
+        "count": 5,
+        "furniture": [
+          "furni_activity_wallpaper_01",
+          "furni_activity_floor_01",
+          "furni_activity_ceiling_01",
+          "furni_activity_rod_01",
+          "furni_activity_downlight_01"
+        ]
+      },
+      "furni_set_kitchen_1": {
+        "id": "furni_set_kitchen_1",
+        "name": "Sleeping Area",
+        "themeId": "furni_set_kitchen",
+        "comfort": 230,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_bed_01",
+          "furni_kitchen_framed_01",
+          "furni_kitchen_airPurifier_01",
+          "furni_kitchen_partition_01",
+          "furni_kitchen_carpet_01"
+        ]
+      },
+      "furni_set_kitchen_2": {
+        "id": "furni_set_kitchen_2",
+        "name": "Kitchen Zone",
+        "themeId": "furni_set_kitchen",
+        "comfort": 290,
+        "count": 4,
+        "furniture": [
+          "furni_kitchen_islandWorktop_01",
+          "furni_kitchen_worktop_01",
+          "furni_kitchen_oven_01",
+          "furni_kitchen_stool_01"
+        ]
+      },
+      "furni_set_kitchen_3": {
+        "id": "furni_set_kitchen_3",
+        "name": "Luminous Set",
+        "themeId": "furni_set_kitchen",
+        "comfort": 135,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_downlight_01",
+          "furni_kitchen_ceiling_01",
+          "furni_kitchen_ceilingLamps_01",
+          "furni_kitchen_ceilingLight_01",
+          "furni_kitchen_lamp_01"
+        ]
+      },
+      "furni_set_kitchen_4": {
+        "id": "furni_set_kitchen_4",
+        "name": "Atmospheric Surroundings",
+        "themeId": "furni_set_kitchen",
+        "comfort": 190,
+        "count": 5,
+        "furniture": [
+          "furni_kitchen_wallpaper_01",
+          "furni_kitchen_floor_01",
+          "furni_kitchen_wallArt_01",
+          "furni_kitchen_wallSticker_01",
+          "furni_kitchen_pottedPlant_01"
         ]
       }
     },
@@ -27455,6 +30736,115 @@
       ],
       "requireStages": []
     },
+    "57": {
+      "sortId": 2000,
+      "formulaId": "57",
+      "rarity": 0,
+      "itemId": "30145",
+      "count": 1,
+      "goldCost": 400,
+      "apCost": 2880000,
+      "formulaType": "F_EVOLVE",
+      "buffType": "W_EVOLVE",
+      "extraOutcomeRate": 0.1,
+      "extraOutcomeGroup": [
+        {
+          "weight": 84,
+          "itemId": "30014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30024",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30034",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30044",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30054",
+          "itemCount": 1
+        },
+        {
+          "weight": 42,
+          "itemId": "30064",
+          "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "30074",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30084",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "30094",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "30104",
+          "itemCount": 1
+        },
+        {
+          "weight": 72,
+          "itemId": "31014",
+          "itemCount": 1
+        },
+        {
+          "weight": 63,
+          "itemId": "31024",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "31034",
+          "count": 1,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31014",
+          "count": 2,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31024",
+          "count": 1,
+          "type": "MATERIAL"
+        }
+      ],
+      "requireRooms": [
+        {
+          "roomId": "WORKSHOP",
+          "roomLevel": 3,
+          "roomCount": 1
+        }
+      ],
+      "requireStages": [
+        {
+          "stageId": "sub_05-4-3",
+          "rank": 2
+        }
+      ]
+    },
     "12": {
       "sortId": 2001,
       "formulaId": "12",
@@ -27525,6 +30915,11 @@
         {
           "weight": 63,
           "itemId": "31024",
+          "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
           "itemCount": 1
         }
       ],
@@ -27625,6 +31020,11 @@
           "weight": 63,
           "itemId": "31024",
           "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -27719,6 +31119,11 @@
           "weight": 63,
           "itemId": "31024",
           "itemCount": 1
+        },
+        {
+          "weight": 56,
+          "itemId": "31034",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -27746,6 +31151,115 @@
         }
       ],
       "requireStages": []
+    },
+    "58": {
+      "sortId": 2100,
+      "formulaId": "58",
+      "rarity": 0,
+      "itemId": "31034",
+      "count": 1,
+      "goldCost": 300,
+      "apCost": 1440000,
+      "formulaType": "F_EVOLVE",
+      "buffType": "W_EVOLVE",
+      "extraOutcomeRate": 0.1,
+      "extraOutcomeGroup": [
+        {
+          "weight": 60,
+          "itemId": "30013",
+          "itemCount": 1
+        },
+        {
+          "weight": 50,
+          "itemId": "30023",
+          "itemCount": 1
+        },
+        {
+          "weight": 50,
+          "itemId": "30033",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30043",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30053",
+          "itemCount": 1
+        },
+        {
+          "weight": 30,
+          "itemId": "30063",
+          "itemCount": 1
+        },
+        {
+          "weight": 45,
+          "itemId": "30073",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "30083",
+          "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "30093",
+          "itemCount": 1
+        },
+        {
+          "weight": 30,
+          "itemId": "30103",
+          "itemCount": 1
+        },
+        {
+          "weight": 36,
+          "itemId": "31013",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "31033",
+          "count": 2,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31013",
+          "count": 1,
+          "type": "MATERIAL"
+        },
+        {
+          "id": "31023",
+          "count": 1,
+          "type": "MATERIAL"
+        }
+      ],
+      "requireRooms": [
+        {
+          "roomId": "WORKSHOP",
+          "roomLevel": 3,
+          "roomCount": 1
+        }
+      ],
+      "requireStages": [
+        {
+          "stageId": "sub_03-3-2",
+          "rank": 2
+        }
+      ]
     },
     "55": {
       "sortId": 2101,
@@ -27817,6 +31331,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -27922,6 +31441,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28026,6 +31550,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28124,6 +31653,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28224,6 +31758,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28322,6 +31861,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28540,6 +32084,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -28756,6 +32305,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -28974,6 +32528,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -29190,6 +32749,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
@@ -29408,6 +32972,11 @@
           "weight": 40,
           "itemId": "31023",
           "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
+          "itemCount": 1
         }
       ],
       "costs": [
@@ -29624,6 +33193,11 @@
         {
           "weight": 40,
           "itemId": "31023",
+          "itemCount": 1
+        },
+        {
+          "weight": 40,
+          "itemId": "31033",
           "itemCount": 1
         }
       ],
